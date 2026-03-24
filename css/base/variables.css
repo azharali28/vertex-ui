@@ -1,0 +1,94 @@
+:root {
+    /* Primary - Buttons, links and active states */
+    --vx-color-primary: #2563eb;
+    --vx-color-primary-hover: #1d4ed8;
+    --vx-color-primary-active: #1e40af;
+    --vx-color-primary-light: #dbeafe;
+
+    /* Secondary - Secondary buttons and charts */
+    --vx-color-secondary: #14b8a6;
+    --vx-color-secondary-hover: #1d4ed8;
+    --vx-color-secondary-active: #0d9488;
+    --vx-color-secondary-light: #ccfbf1;
+
+    /* Tertiary - Highlights, tags and UI accents */
+    --vx-color-tertiary: #f59e0b;
+    --vx-color-tertiary-hover: #d97706;
+    --vx-color-tertiary-active: #b45309;
+    --vx-color-tertiary-light: #fef3c7;
+
+    /* Success - Completed, saved and success alerts */
+    --vx-color-success: #22c55e;
+    --vx-color-success-hover: #16a34a;
+    --vx-color-success-light: #dcfce7;
+
+    /* Danger - Delete and errors */
+    --vx-color-danger: #ef4444;
+    --vx-color-danger-hover: #dc2626;
+    --vx-color-danger-light: #fee2e2;
+
+    /* Warning - Caution and pending actions */
+    --vx-color-warning: #f97316;
+    --vx-color-warning-hover: #ea580c;
+    --vx-color-warning-light: #ffedd5;
+
+    /* Light */
+    --vx-color-light: #f8fafc;
+    --vx-color-light-hover: #f1f5f9;
+    
+    /* Dark */
+    --vx-color-dark: #0f172a;
+    --vx-color-dark-hover: #020617;
+
+    /* Neutral scale */
+    --vx-color-gray-50:  #f9fafb; /* Page background */
+    --vx-color-gray-100: #f3f4f6; /* Cards */
+    --vx-color-gray-200: #e5e7eb; /* Borders */
+    --vx-color-gray-300: #d1d5db; /* Dividers */
+    --vx-color-gray-400: #9ca3af; /* Placeholder text */
+    --vx-color-gray-500: #6b7280; /* Secondary text */
+    --vx-color-gray-600: #4b5563; /* Body text */
+    --vx-color-gray-700: #374151; /* Headings */
+    --vx-color-gray-800: #1f2937; /* Dark UI */
+    --vx-color-gray-900: #111827; /* Darkest ??? */
+
+    /* Font */
+    --vx-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /* Font size scale */
+    --vx-text-xs: 12px;   /* captions, helper text */
+    --vx-text-sm: 14px;   /* small UI text */
+    --vx-text-base: 16px; /* default body text */
+    --vx-text-lg: 20px;   /* large body */
+    --vx-text-xl: 24px;   /* subtitles */
+    --vx-text-2xl: 28px;  /* small headings */
+    --vx-text-3xl: 32px;  /* section titles */
+    --vx-text-4xl: 36px;  /* page titles */
+    --vx-text-5xl: 40px;  /* hero titles */
+
+    /* Font Weight */
+    --vx-text-light: 200;
+    --vx-text-normal: 400;
+    --vx-text-medium: 600;
+    --vx-text-bold: 800;
+    --vx-text-bolder: 1000;
+
+    /* Spacing */
+    --vx-space-xs: 4px;
+    --vx-space-sm: 8px;
+    --vx-space-md: 16px;
+    --vx-space-lg: 24px;
+    --vx-space-xl: 32px;
+    --vx-space-2xl: 48px;
+    --vx-space-3xl: 64px;
+
+    /* Radius */
+    --vx-radius-sm: 4px;
+    --vx-radius-md: 6px;
+    --vx-radius-lg: 10px;
+    --vx-radius-xl: 16px;
+    --vx-radius-pill: 999px;
+
+    /* Navbar height */
+    --vx-navbar-height: 64px
+}

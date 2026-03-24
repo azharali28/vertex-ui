@@ -1,0 +1,66 @@
+.vx-table {
+    width: 100%;
+    border-collapse: collapse;
+    transition: all 0.3s ease-in;
+}
+
+.vx-table thead th,
+.vx-table tbody td,
+.vx-table tbody th {
+    text-align: left;
+    padding: var(--vx-space-md);
+}
+
+.vx-table tr {
+    padding: var(--vx-space-sm);
+    border-bottom: 1px solid var(--vx-color-gray-200);
+}
+
+.vx-table-bordered th,
+.vx-table-bordered td {
+    border: 1px solid var(--vx-color-gray-200);
+}
+
+.vx-table-primary {
+    background-color: var(--vx-color-primary);
+    color: white;
+}
+
+.vx-table-secondary {
+    background-color: var(--vx-color-secondary);
+    color: white;
+}
+
+.vx-table-tertiary {
+    background-color: var(--vx-color-tertiary);
+    color: white;
+}
+
+.vx-table-success {
+    background-color: var(--vx-color-success);
+    color: white;
+}
+
+.vx-table-warning {
+    background-color: var(--vx-color-warning);
+    color: white;
+}
+
+.vx-table-danger {
+    background-color: var(--vx-color-danger);
+    color: white;
+}
+
+.vx-table-light {
+    background-color: var(--vx-color-light);
+    color: var(--vx-color-dark);
+}
+
+.vx-table-dark {
+    background-color: var(--vx-color-dark);
+    color: white;
+}
+
+.vx-table-hover tbody tr:hover {
+    background-color: var(--vx-color-gray-100);
+}

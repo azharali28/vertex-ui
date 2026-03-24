@@ -1,0 +1,171 @@
+/* Colors */
+/* Background colors */
+.vx-bg-primary { background-color: var(--vx-color-primary); }
+.vx-bg-secondary { background-color: var(--vx-color-secondary); }
+.vx-bg-tertiary { background-color: var(--vx-color-tertiary); }
+.vx-bg-success { background-color: var(--vx-color-success); }
+.vx-bg-warning { background-color: var(--vx-color-warning); }
+.vx-bg-danger { background-color: var(--vx-color-danger); }
+.vx-bg-light { background-color: var(--vx-color-light); }
+.vx-bg-dark { background-color: var(--vx-color-dark); }
+
+.vx-bg-gray-50 { background-color: var(--vx-color-gray-50); }
+.vx-bg-gray-100 { background-color: var(--vx-color-gray-100); }
+.vx-bg-gray-200 { background-color: var(--vx-color-gray-200); }
+.vx-bg-gray-300 { background-color: var(--vx-color-gray-300); }
+.vx-bg-gray-400 { background-color: var(--vx-color-gray-400); }
+.vx-bg-gray-500 { background-color: var(--vx-color-gray-500); }
+.vx-bg-gray-600 { background-color: var(--vx-color-gray-600); }
+.vx-bg-gray-700 { background-color: var(--vx-color-gray-700); }
+.vx-bg-gray-800 { background-color: var(--vx-color-gray-800); }
+.vx-bg-gray-900 { background-color: var(--vx-color-gray-900); }
+
+/* Neutral */
+.vx-text-gray-50 { color: var(--vx-color-gray-50); }
+.vx-text-gray-100 { color: var(--vx-color-gray-100); }
+.vx-text-gray-200 { color: var(--vx-color-gray-200); }
+.vx-text-gray-300 { color: var(--vx-color-gray-300); }
+.vx-text-gray-400 { color: var(--vx-color-gray-400); }
+.vx-text-gray-500 { color: var(--vx-color-gray-500); }
+.vx-text-gray-600 { color: var(--vx-color-gray-600); }
+.vx-text-gray-700 { color: var(--vx-color-gray-700); }
+.vx-text-gray-800 { color: var(--vx-color-gray-800); }
+.vx-text-gray-900 { color: var(--vx-color-gray-900); }
+
+/* Text */
+.vx-text-primary { color: var(--vx-color-primary); }
+.vx-text-secondary { color: var(--vx-color-secondary); }
+.vx-text-tertiary { color: var(--vx-color-tertiary); }
+.vx-text-success { color: var(--vx-color-success); }
+.vx-text-warning { color: var(--vx-color-warning); }
+.vx-text-danger { color: var(--vx-color-danger); }
+.vx-text-light { color: var(--vx-color-light); }
+.vx-text-dark { color: var(--vx-color-dark); }
+
+/* Text sizes */
+.vx-text-xs { font-size: var(--vx-text-xs); }
+.vx-text-sm { font-size: var(--vx-text-sm); }
+.vx-text-md { font-size: var(--vx-text-md); }
+.vx-text-lg { font-size: var(--vx-text-lg); }
+.vx-text-xl { font-size: var(--vx-text-xl); }
+.vx-text-2xl { font-size: var(--vx-text-2xl); }
+.vx-text-3xl { font-size: var(--vx-text-3xl); }
+.vx-text-4xl { font-size: var(--vx-text-4xl); }
+.vx-text-5xl { font-size: var(--vx-text-5xl); }
+
+/* Text alignments */
+.vx-text-left { text-align: start; }
+.vx-text-center { text-align: center; }
+.vx-text-right { text-align: end; }
+
+/* Spacing */
+.vx-my-xs { margin: var(--vx-space-xs) 0; }
+.vx-my-sm { margin: var(--vx-space-sm) 0; }
+.vx-my-lg { margin: var(--vx-space-lg) 0; }
+.vx-my-xl { margin: var(--vx-space-xl) 0; }
+.vx-my-2xl { margin: var(--vx-space-2xl) 0; }
+.vx-my-3xl { margin: var(--vx-space-3xl) 0; }
+
+.vx-mx-xs { margin: 0 var(--vx-space-xs); }
+.vx-mx-sm { margin: 0 var(--vx-space-sm); }
+.vx-mx-lg { margin: 0 var(--vx-space-lg); }
+.vx-mx-xl { margin: 0 var(--vx-space-xl); }
+.vx-mx-2xl { margin: 0 var(--vx-space-2xl); }
+.vx-mx-3xl { margin: 0 var(--vx-space-3xl); }
+
+/* Radius */
+.vx-rounded-sm { border-radius: var(--vx-radius-sm); }
+.vx-rounded-md { border-radius: var(--vx-radius-md); }
+.vx-rounded-lg { border-radius: var(--vx-radius-lg); }
+.vx-rounded-xl { border-radius: var(--vx-radius-xl); }
+.vx-rounded-full { border-radius: var(--vx-radius-pill); }
+
+.vx-rounded-top-sm { border-top-left-radius: var(--vx-radius-sm); border-top-right-radius: var(--vx-radius-sm); }
+.vx-rounded-top-md { border-top-left-radius: var(--vx-radius-md); border-top-right-radius: var(--vx-radius-md); }
+.vx-rounded-top-lg { border-top-left-radius: var(--vx-radius-lg); border-top-right-radius: var(--vx-radius-lg); }
+.vx-rounded-top-xl { border-top-left-radius: var(--vx-radius-xl); border-top-right-radius: var(--vx-radius-xl); }
+
+.vx-rounded-bottom-sm { border-bottom-left-radius: var(--vx-radius-sm); border-bottom-right-radius: var(--vx-radius-sm); }
+.vx-rounded-bottom-md { border-bottom-left-radius: var(--vx-radius-md); border-bottom-right-radius: var(--vx-radius-md); }
+.vx-rounded-bottom-lg { border-bottom-left-radius: var(--vx-radius-lg); border-bottom-right-radius: var(--vx-radius-lg); }
+.vx-rounded-bottom-xl { border-bottom-left-radius: var(--vx-radius-xl); border-bottom-right-radius: var(--vx-radius-xl); }
+
+/* Flex */
+.vx-flex {
+    display: flex;
+}
+
+.vx-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.vx-flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.vx-flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--vx-space-lg);
+}
+
+.vx-items-start { align-items: start; }
+.vx-items-center { align-items: center; }
+.vx-items-end { align-items: end; }
+
+.vx-justify-start { justify-content: start; }
+.vx-justify-center { justify-content: center; }
+.vx-justify-space-between { justify-content: space-between; }
+.vx-justify-end { justify-content: end; }
+
+/* Height */
+.vx-h-sm { height: 24px; }
+.vx-h-md { height: 48px; }
+.vx-h-lg { height: 72px; }
+.vx-h-xl { height: 96px; }
+.vx-h-2xl { height: 128px; }
+.vx-h-full { height: 100%; }
+.vx-h-auto { height: auto; }
+.vx-h-screen { height: 100vh; }
+
+/* Order */
+.vx-order-1 { order: 1; }
+.vx-order-2 { order: 2; }
+.vx-order-3 { order: 3; }
+
+/* Nav header */
+.vx-nav-header i {
+    margin-right: var(--vx-space-sm);
+}
+
+/* Nav links */
+.vx-nav-link {
+    display: flex;
+    align-items: center;
+    gap: var(--vx-space-md);
+    text-decoration: none;
+    color: var(--vx-color-gray-500);
+    border-color: transparent;
+    transition: color 0.2s ease, background-color 0.2s ease, border-bottom 0.2s ease;
+}
+
+.vx-nav-link:hover {
+    color: var(--vx-color-gray-900);
+}
+
+.is-active {
+    color: var(--vx-color-gray-900);
+}
+
+.is-disabled:hover {
+    color: var(--vx-color-gray-500);
+    cursor: default;
+    border: none;
+}
+
+.vx-sidebar-sticky {
+    position: sticky;
+    top: 100px;
+}

@@ -1,0 +1,17 @@
+.vx-flex {
+    display: flex;
+}
+
+.vx-flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--vx-space-lg);
+}
+
+.vx-items-start { justify-items: start; }
+.vx-items-center { justify-items: center; }
+.vx-items-end { justify-items: end; }
+
+.vx-justify-start { justify-content: start; }
+.vx-justify-between { justify-content: space-between; }
+.vx-justify-end { justify-content: end; }

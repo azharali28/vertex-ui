@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../docs/css/docs.css">
+    <link rel="stylesheet" href="../vertex-ui.css">
+    <title>Spacing | Vertex UI v1.0</title>
+</head>
+<body>
+    <header class="vx-navbar vx-navbar-light vx-navbar-sticky">
+        <nav class="vx-container-fluid">
+            <a href="#" class="vx-navbar-brand">Vertex</a>
+            <div class="vx-collapse">
+                <div class="vx-navbar-nav">
+                    <a href="#" class="vx-nav-link is-active">Docs</a>
+                    <a href="#" class="vx-nav-link">Templates</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="vx-docs">
+        <!-- Sidebar -->
+        <aside class="vx-docs-sidebar vx-sidebar-sticky">
+            <!-- Getting Started -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa-solid fa-book-open"></i>
+                        <strong>Getting Started</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="introduction.html" class="vx-nav-link">Introduction</a>
+                    <a href="download.html" class="vx-nav-link">Download</a>
+                </nav>
+            </div>
+            
+            <!-- Layout -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-table-cells-large"></i>
+                        <strong>Layout</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="container.html" class="vx-nav-link">Container</a>
+                    <a href="grid.html" class="vx-nav-link">Grid</a>
+                    <a href="section.html" class="vx-nav-link">Section</a>
+                </nav>
+            </div>
+            
+            <!-- Components -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-list"></i>
+                        <strong>Components</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="alerts.html" class="vx-nav-link">Alerts</a>
+                    <a href="buttons.html" class="vx-nav-link">Buttons</a>
+                    <a href="card.html" class="vx-nav-link">Card</a>
+                    <a href="form.html" class="vx-nav-link">Form</a>
+                    <a href="nav.html" class="vx-nav-link">Nav</a>
+                    <a href="navbar.html" class="vx-nav-link">Navbar</a>
+                    <a href="table.html" class="vx-nav-link">Table</a>
+                </nav>
+            </div>
+
+            <!-- Utilities -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-css3"></i>
+                        <strong>Utilities</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="color.html" class="vx-nav-link">Color</a>
+                    <a href="flex.html" class="vx-nav-link">Flex</a>
+                    <a href="radius.html" class="vx-nav-link">Radius</a>
+                    <a href="spacing.html" class="vx-nav-link">Spacing</a>
+                    <a href="typography.html" class="vx-nav-link">Typography</a>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Main content -->
+        <main id="spacing" class="vx-main">
+            <div class="vx-container vx-main-intro">
+                <h1 class="vx-main-title">Spacing</h1>
+                <p class="vx-main-text">
+                    Spacing utilities control margin and padding to create consistent layouts and visual rhythm across your UI.
+                </p>
+            </div>
+
+            <!-- Spacing Tokens -->
+            <section id="tokens" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Spacing Tokens</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <table class="vx-table vx-table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Value</th>
+                                    <th scope="col">CSS Token</th>
+                                    <th scope="col">Size</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>xs</code></td>
+                                    <td><code>--vx-space-xs</code></td>
+                                    <td><code>4px</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>sm</code></td>
+                                    <td><code>--vx-space-sm</code></td>
+                                    <td><code>8px</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>md</code></td>
+                                    <td><code>--vx-space-md</code></td>
+                                    <td><code>16px</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>lg</code></td>
+                                    <td><code>--vx-space-lg</code></td>
+                                    <td><code>24px</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>xl</code></td>
+                                    <td><code>--vx-space-xl</code></td>
+                                    <td><code>32px</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>2xl</code></td>
+                                    <td><code>--vx-space-2xl</code></td>
+                                    <td><code>48px</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>3xl</code></td>
+                                    <td><code>--vx-space-3xl</code></td>
+                                    <td><code>64px</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Margin Utilities -->
+            <section id="margin-utils" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Margin Utilities</h3>
+                        <p class="vx-section-subtitle">
+                            Margins have scales <code>sm, md, lg, xl, 2xl</code> and <code>3xl</code>.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <table class="vx-table vx-table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Value</th>
+                                    <th scope="col">Side</th>
+                                    <th scope="col">Preview</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>vx-m-*</code></td>
+                                    <td>All sides</td>
+                                    <td>
+                                        <div class="vx-wrapper">
+                                            <div class="vx-demo-box vx-m-md">Applied</div>
+                                            <div class="vx-demo-box">Default</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-mt-*</code></td>
+                                    <td>Top</td>
+                                    <td>
+                                        <div class="vx-wrapper">
+                                            <div class="vx-demo-box vx-mt-md">Applied</div>
+                                            <div class="vx-demo-box">Default</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-mb-*</code></td>
+                                    <td>Bottom</td>
+                                    <td>
+                                        <div class="vx-wrapper">
+                                            <div class="vx-demo-box vx-mb-md">Applied</div>
+                                            <div class="vx-demo-box">Default</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-ml-*</code></td>
+                                    <td>Left</td>
+                                    <td>
+                                        <div class="vx-wrapper">
+                                            <div class="vx-demo-box vx-ml-md">Applied</div>
+                                            <div class="vx-demo-box">Default</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-mr-*</code></td>
+                                    <td>Right</td>
+                                    <td>
+                                        <div class="vx-wrapper">
+                                            <div class="vx-demo-box vx-mr-md">Applied</div>
+                                            <div class="vx-demo-box">Default</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-mx-*</code></td>
+                                    <td>Horizontal</td>
+                                    <td>
+                                        <div class="vx-wrapper">
+                                            <div class="vx-demo-box vx-mx-md">Applied</div>
+                                            <div class="vx-demo-box">Default</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-my-*</code></td>
+                                    <td>vertical</td>
+                                    <td>
+                                        <div class="vx-wrapper">
+                                            <div class="vx-demo-box vx-my-md">Applied</div>
+                                            <div class="vx-demo-box">Default</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Padding Utilities -->
+            <section id="padding-utils" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Padding Utilities</h3>
+                        <p class="vx-section-subtitle">
+                            Padding have scales <code>sm, md, lg, xl, 2xl</code> and <code>3xl</code>.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <table class="vx-table vx-table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Value</th>
+                                    <th scope="col">Side</th>
+                                    <th scope="col">Preview</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>vx-p-*</code></td>
+                                    <td>All sides</td>
+                                    <td>
+                                        <div class="vx-wrapper vx-p-md">
+                                            <div class="vx-demo-box">Box</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-pt-*</code></td>
+                                    <td>Top</td>
+                                    <td>
+                                        <div class="vx-wrapper vx-pt-md">
+                                            <div class="vx-demo-box">Box</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-pb-*</code></td>
+                                    <td>Bottom</td>
+                                    <td>
+                                        <div class="vx-wrapper vx-pb-md">
+                                            <div class="vx-demo-box">Box</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-pl-*</code></td>
+                                    <td>Left</td>
+                                    <td>
+                                        <div class="vx-wrapper vx-pl-md">
+                                            <div class="vx-demo-box">Box</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-pr-*</code></td>
+                                    <td>Right</td>
+                                    <td>
+                                        <div class="vx-wrapper vx-pr-md">
+                                            <div class="vx-demo-box">Box</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-px-*</code></td>
+                                    <td>Horizontal</td>
+                                    <td>
+                                        <div class="vx-wrapper vx-px-md">
+                                            <div class="vx-demo-box">Box</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>vx-py-*</code></td>
+                                    <td>Vertical</td>
+                                    <td>
+                                        <div class="vx-wrapper vx-py-md">
+                                            <div class="vx-demo-box">Box</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gap -->
+            <section id="gap" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Gap</h3>
+                        <p class="vx-section-subtitle">
+                            Use Gap <code><strong>vx-gap-*</strong></code> on <code><strong>display: grid</strong></code> or <code><strong>display: flex</strong></code> <br>
+                            Gaps scalling are the same as margins and padding, <code>sm, md, lg, xl, 2xl and 3xl</code>.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-flex vx-gap-lg">
+                                    <div class="vx-demo-box">1</div>
+                                    <div class="vx-demo-box">2</div>
+                                    <div class="vx-demo-box">3</div>
+                                    <div class="vx-demo-box">4</div>
+                                </div>    
+                            </div>
+                            <div class="vx-code">
+                                <pre><code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stack -->
+            <section id="stack" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Stack</h3>
+                        <p class="vx-section-subtitle">
+                            Use Stack <code><strong>vx-stack-*</strong></code> on <code><strong>display: grid</strong></code> or <code><strong>display: flex</strong></code> <br>
+                            Gaps scalling are the same as margins and padding, <code>sm, md, lg, xl, 2xl and 3xl</code>.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-flex vx-stack-lg">
+                                    <div class="vx-demo-box">1</div>
+                                    <div class="vx-demo-box">2</div>
+                                    <div class="vx-demo-box">3</div>
+                                    <div class="vx-demo-box">4</div>
+                                </div>    
+                            </div>
+                            <div class="vx-code">
+                                <pre><code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- TOC -->
+        <aside class="vx-docs-toc vx-sidebar-sticky">
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <strong>Table of Contents</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column">
+                    <a href="#tokens" class="vx-nav-link is-active">Spacing Tokens</a>
+                    <a href="#margin-utils" class="vx-nav-link is-active">Margin</a>
+                    <a href="#padding-utils" class="vx-nav-link is-active">Padding</a>
+                    <a href="#gap" class="vx-nav-link is-active">Gap</a>
+                    <a href="#stack" class="vx-nav-link is-active">Stack</a>
+                </nav>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="vx-footer">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

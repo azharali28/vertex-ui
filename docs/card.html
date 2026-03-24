@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../docs/css/docs.css">
+    <link rel="stylesheet" href="../vertex-ui.css">
+    <title>Card | Vertex UI v1.0</title>
+</head>
+<body>
+    <header class="vx-navbar vx-navbar-light vx-navbar-sticky">
+        <nav class="vx-container-fluid">
+            <a href="#" class="vx-navbar-brand">Vertex</a>
+            <div class="vx-collapse">
+                <div class="vx-navbar-nav">
+                    <a href="#" class="vx-nav-link is-active">Docs</a>
+                    <a href="#" class="vx-nav-link">Templates</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="vx-docs">
+        <!-- Sidebar -->
+        <aside class="vx-docs-sidebar vx-sidebar-sticky">
+            <!-- Getting Started -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa-solid fa-book-open"></i>
+                        <strong>Getting Started</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="introduction.html" class="vx-nav-link">Introduction</a>
+                    <a href="download.html" class="vx-nav-link">Download</a>
+                </nav>
+            </div>
+            
+            <!-- Layout -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-table-cells-large"></i>
+                        <strong>Layout</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="container.html" class="vx-nav-link">Container</a>
+                    <a href="grid.html" class="vx-nav-link">Grid</a>
+                    <a href="section.html" class="vx-nav-link">Section</a>
+                </nav>
+            </div>
+            
+            <!-- Components -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-list"></i>
+                        <strong>Components</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="alerts.html" class="vx-nav-link">Alerts</a>
+                    <a href="buttons.html" class="vx-nav-link">Buttons</a>
+                    <a href="card.html" class="vx-nav-link">Card</a>
+                    <a href="form.html" class="vx-nav-link">Form</a>
+                    <a href="nav.html" class="vx-nav-link">Nav</a>
+                    <a href="navbar.html" class="vx-nav-link">Navbar</a>
+                    <a href="table.html" class="vx-nav-link">Table</a>
+                </nav>
+            </div>
+
+            <!-- Utilities -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-css3"></i>
+                        <strong>Utilities</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="color.html" class="vx-nav-link">Color</a>
+                    <a href="flex.html" class="vx-nav-link">Flex</a>
+                    <a href="radius.html" class="vx-nav-link">Radius</a>
+                    <a href="spacing.html" class="vx-nav-link">Spacing</a>
+                    <a href="typography.html" class="vx-nav-link">Typography</a>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Main content -->
+        <main id="card" class="vx-main">
+            <div class="vx-container">
+                <div class="vx-container vx-main-intro">
+                    <h1 class="vx-main-title">Card</h1>
+                    <p class="vx-main-subtitle">
+                        Cards are flexible containers used to group related content. They help structure information into digestible, visually distinct blocks.
+                    </p>
+                </div>
+
+                <!-- Example -->
+                <section id="example" class="vx-section">
+                    <div class="vx-container vx-section-inner">
+                        <div class="vx-section-header">
+                            <h3 class="vx-section-title">Example</h3>
+                        </div>
+                        <div class="vx-section-body">
+                            <div class="vx-snippet">
+                                <div class="vx-preview">
+                                    <div class="vx-card" style="max-width: 320px;">
+                                        <div class="vx-card-body">
+                                            <h3 class="vx-card-title">Card Title</h3>
+                                            <p class="vx-card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                Sed faucibus aliquam orci tincidunt aliquam. Curabitur massa ante, faucibus eget dui.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vx-code">
+                                    <pre><code></code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Image Top -->
+                <section id="image" class="vx-section">
+                    <div class="vx-container">
+                        <div class="vx-section-header">
+                            <h3 class="vx-section-title">Image Top</h3>
+                            <p class="vx-section-subtitle">Card with image on top.</p>
+                        </div>
+                        <div class="vx-section-body">
+                            <div class="vx-snippet">
+                                <div class="vx-preview">
+                                    <div class="vx-card" style="max-width: 320px;">
+                                        <img src="https://placehold.co/330x200?text=Image+Placehold" alt="card-img-top" class="vx-img-fluid">
+                                        <div class="vx-card-body">
+                                            <h3 class="vx-card-title">Card Title</h3>
+                                            <p class="vx-card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                Sed faucibus aliquam orci tincidunt aliquam. Curabitur massa ante, faucibus eget dui.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vx-code">
+                                    <pre><code></code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Grid -->
+                <section id="grid" class="vx-section">
+                    <div class="vx-container">
+                        <div class="vx-section-header">
+                            <h3 class="vx-section-title">Grid</h3>
+                            <p class="vx-section-subtitle">Grid-layout cards.</p>
+                        </div>
+                        <div class="vx-section-body">
+                            <div class="vx-snippet">
+                                <div class="vx-preview">
+                                    <div class="vx-grid">
+                                        <div class="vx-col-6">
+                                            <div class="vx-card">
+                                                <img src="https://placehold.co/330x200?text=Image+Placehold" alt="card-img-top" class="vx-img-fluid">
+                                                <div class="vx-card-body">
+                                                    <h3 class="vx-card-title">Card Title</h3>
+                                                    <p class="vx-card-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                        Sed faucibus aliquam orci tincidunt aliquam. Curabitur massa ante, faucibus eget dui.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vx-col-6">
+                                            <div class="vx-card">
+                                                <img src="https://placehold.co/330x200?text=Image+Placehold" alt="card-img-top" class="vx-img-fluid">
+                                                <div class="vx-card-body">
+                                                    <h3 class="vx-card-title">Card Title</h3>
+                                                    <p class="vx-card-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                        Sed faucibus aliquam orci tincidunt aliquam. Curabitur massa ante, faucibus eget dui.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vx-code">
+                                    <pre><code></code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Card Header and Footer -->
+                <section id="header" class="vx-section">
+                    <div class="vx-container">
+                        <div class="vx-section-header">
+                            <h3 class="vx-section-title">Card Header and Footer</h3>
+                        </div>
+                        <div class="vx-section-body">
+                            <div class="vx-snippet">
+                                <div class="vx-preview">
+                                    <div class="vx-card">
+                                        <div class="vx-card-header vx-text-center">Header</div>
+                                        <div class="vx-card-body">
+                                            <h3 class="vx-card-title">Card Title</h3>
+                                            <p class="vx-card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                Sed faucibus aliquam orci tincidunt aliquam. Curabitur massa ante, faucibus eget dui.
+                                            </p>
+                                        </div>
+                                        <div class="vx-card-footer vx-text-center">
+                                            Footer
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vx-code">
+                                    <pre><code></code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- TOC -->
+        <aside class="vx-docs-toc vx-sidebar-sticky">
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <strong>Table of Contents</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column">
+                    <a href="#base" class="vx-nav-link is-active">Base</a>
+                    <a href="#vertical" class="vx-nav-link is-active">Vertical</a>
+                    <a href="#pills" class="vx-nav-link is-active">Pills</a>
+                    <a href="#underline" class="vx-nav-link is-active">Underline</a>
+                </nav>
+            </div>
+        </aside>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

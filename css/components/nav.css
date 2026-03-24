@@ -1,0 +1,50 @@
+.vx-nav {
+    display: flex;
+    align-items: center;
+    padding: var(--vx-space-md);
+    gap: var(--vx-space-md);
+}
+
+/* Nav column */
+.vx-nav-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--vx-space-md);
+}
+
+/* Pills */
+.vx-nav-pills .is-active {
+    background-color: var(--vx-color-primary);
+    color: white;
+    padding: var(--vx-space-sm);
+    border-radius: var(--vx-radius-md);
+}
+
+/* Pill Hover */
+/* .vx-nav-pill-hover .vx-nav-link .is-active {
+    background-color: var(--vx-color-primary);
+    color: white;
+    padding: var(--vx-space-sm);
+    border-radius: var(--vx-radius-md);
+} */
+
+.vx-nav-pill-hover .vx-nav-link:hover {
+    background-color: var(--vx-color-primary);
+    color: white;
+    padding: var(--vx-space-sm);
+    border-radius: var(--vx-radius-md);
+}
+
+/* Underline */
+.vx-nav-underline .vx-nav-link {
+    padding-bottom: var(--vx-space-sm);
+}
+
+.vx-nav-underline .vx-nav-link.is-active {
+    border-bottom: 2px solid var(--vx-color-primary);
+}
+
+.vx-nav-underline .vx-nav-link:hover {
+    border-bottom: 2px solid var(--vx-color-primary);
+}
