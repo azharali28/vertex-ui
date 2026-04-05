@@ -1,0 +1,36 @@
+.vx-card {
+    border: 1px solid var(--vx-color-gray-200);
+    border-radius: var(--vx-radius-md);
+}
+
+.vx-card-body {
+    padding: var(--vx-space-md);
+}
+
+.vx-card-title {
+    font-size: var(--vx-text-xl);
+    font-weight: 500;
+    margin-bottom: var(--vx-space-md);
+}
+
+.vx-card-text {
+    color: var(--vx-color-gray-500);
+}
+
+.vx-img-fluid {
+    width: 100%;
+}
+
+.vx-card-header,
+.vx-card-footer {
+    padding: var(--vx-space-md);
+    background-color: var(--vx-color-gray-100);
+}
+
+.vx-card-header {    
+    border-bottom: 1px solid var(--vx-color-gray-200);
+}
+
+.vx-card-footer {
+    border-top: 1px solid var(--vx-color-gray-200);
+}

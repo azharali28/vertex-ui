@@ -1,0 +1,50 @@
+/* Text sizes */
+.vx-text-xs { font-size: var(--vx-text-xs); }
+.vx-text-sm { font-size: var(--vx-text-sm); }
+.vx-text-md { font-size: var(--vx-text-md); }
+.vx-text-lg { font-size: var(--vx-text-lg); }
+.vx-text-xl { font-size: var(--vx-text-xl); }
+.vx-text-2xl { font-size: var(--vx-text-2xl); }
+.vx-text-3xl { font-size: var(--vx-text-3xl); }
+.vx-text-4xl { font-size: var(--vx-text-4xl); }
+.vx-text-5xl { font-size: var(--vx-text-5xl); }
+
+/* Text alignments */
+.vx-text-start { text-align: start; }
+.vx-text-center { text-align: center; }
+.vx-text-end { text-align: end; }
+
+/* Text Utilities */
+.vx-text-primary { color: var(--vx-color-primary); }
+.vx-text-secondary { color: var(--vx-color-secondary); }
+.vx-text-tertiary { color: var(--vx-color-tertiary); }
+.vx-text-success { color: var(--vx-color-success); }
+.vx-text-warning { color: var(--vx-color-warning); }
+.vx-text-danger { color: var(--vx-color-danger); }
+.vx-text-muted { color: var(--vx-color-gray-300); }
+
+/* Text TRansform */
+.vx-text-uppercase { text-transform: uppercase; }
+.vx-text-lowercase { text-transform: lowercase; }
+.vx-text-capitalize { text-transform: capitalize; }
+
+/* Font Weight */
+.vx-fw-light { font-weight: var(--vx-text-light); }
+.vx-fw-normal { font-weight: var(--vx-text-normal); }
+.vx-fw-medium { font-weight: var(--vx-text-medium); }
+.vx-fw-bold { font-weight: var(--vx-text-bold); }
+.vx-fw-bolder { font-weight: var(--vx-text-bolder); }
+
+/* List Style */
+.vx-list {
+    padding-inline: var(--vx-space-xl);
+    margin-bottom: var(--vx-space-md);
+}
+
+.vx-list li {
+    padding-block: var(--vx-space-xs);
+}
+
+.vx-list-unstyled {
+    list-style: none;
+}

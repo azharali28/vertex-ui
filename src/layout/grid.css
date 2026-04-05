@@ -1,0 +1,20 @@
+.vx-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--vx-space-md);
+}
+
+.vx-col-1 { grid-column: span 1; }
+.vx-col-2 { grid-column: span 2; }
+.vx-col-3 { grid-column: span 3; }
+.vx-col-4 { grid-column: span 4; }
+.vx-col-5 { grid-column: span 5; }
+.vx-col-6 { grid-column: span 6; }
+.vx-col-7 { grid-column: span 7; }
+.vx-col-8 { grid-column: span 8; }
+.vx-col-9 { grid-column: span 9; }
+.vx-col-10 { grid-column: span 10; }
+.vx-col-11 { grid-column: span 11; }
+.vx-col-12 { grid-column: span 12; }
+
+/* Responsive grids */

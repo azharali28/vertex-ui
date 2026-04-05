@@ -1,0 +1,6 @@
+/* Radius */
+.vx-rounded-sm { border-radius: var(--vx-radius-sm); }
+.vx-rounded-md { border-radius: var(--vx-radius-md); }
+.vx-rounded-lg { border-radius: var(--vx-radius-lg); }
+.vx-rounded-xl { border-radius: var(--vx-radius-xl); }
+.vx-rounded-full { border-radius: var(--vx-radius-pill); }

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../docs/css/docs.css">
+    <link rel="stylesheet" href="../dist/vertex.css">
+    <title>Typography | Vertex UI v1.0</title>
+</head>
+<body>
+    <header class="vx-navbar vx-navbar-light vx-navbar-sticky">
+        <nav class="vx-container-fluid">
+            <a href="introduction.html" class="vx-navbar-brand">Vertex</a>
+            <div class="vx-collapse">
+                <div class="vx-navbar-nav">
+                    <a href="introduction.html" class="vx-nav-link is-active">Docs</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="vx-docs">
+        <!-- Sidebar -->
+        <aside class="vx-docs-sidebar vx-sidebar-sticky">
+            <!-- Getting Started -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa-solid fa-book-open"></i>
+                        <strong>Getting Started</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="introduction.html" class="vx-nav-link">Introduction</a>
+                    <a href="download.html" class="vx-nav-link">Download</a>
+                </nav>
+            </div>
+            
+            <!-- Layout -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-table-cells-large"></i>
+                        <strong>Layout</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="container.html" class="vx-nav-link">Container</a>
+                    <a href="grid.html" class="vx-nav-link">Grid</a>
+                    <a href="section.html" class="vx-nav-link">Section</a>
+                </nav>
+            </div>
+            
+            <!-- Components -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-list"></i>
+                        <strong>Components</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="alerts.html" class="vx-nav-link">Alerts</a>
+                    <a href="badge.html" class="vx-nav-link">Badge</a>
+                    <a href="buttons.html" class="vx-nav-link">Buttons</a>
+                    <a href="card.html" class="vx-nav-link">Card</a>
+                    <a href="form.html" class="vx-nav-link">Form</a>
+                    <a href="nav.html" class="vx-nav-link">Nav</a>
+                    <a href="navbar.html" class="vx-nav-link">Navbar</a>
+                    <a href="table.html" class="vx-nav-link">Table</a>
+                </nav>
+            </div>
+
+            <!-- Utilities -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-css3"></i>
+                        <strong>Utilities</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="color.html" class="vx-nav-link">Color</a>
+                    <a href="flex.html" class="vx-nav-link">Flex</a>
+                    <a href="radius.html" class="vx-nav-link">Radius</a>
+                    <a href="spacing.html" class="vx-nav-link">Spacing</a>
+                    <a href="typography.html" class="vx-nav-link">Typography</a>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Main content -->
+        <main id="typography" class="vx-main">
+            <div class="vx-container vx-main-intro">
+                <h1 class="vx-main-title">Typography</h1>
+                <p class="vx-main-text">
+                    Typography controls how text is displayed across your application.
+                    It ensures readability, consistency, and visual hierarchy.
+                </p>
+            </div>
+
+            <!-- Headings -->
+            <section id="headings" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Headings</h3>
+                        <p class="vx-section-text">
+                            Use headings to create a clear content hierarchy.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <h1 class="vx-text-5xl">Heading 1</h1>
+                                <h2 class="vx-text-4xl">Heading 2</h2>
+                                <h3 class="vx-text-3xl">Heading 2</h3>
+                                <h4 class="vx-text-2xl">Heading 4</h4>
+                                <h5 class="vx-text-xl">Heading 5</h5>
+                                <h6 class="vx-text-lg">Heading 6</h6>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <pre><code data-copy-code></code></pre>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Body Text -->
+            <section id="body-text" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Body Text</h3>
+                        <p class="vx-section-text">
+                            Use body texts to create a clear content hierarchy.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <p class="vx-text-lg">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-md">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-sm">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-xs">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <pre><code data-copy-code></code></pre>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Text Utilities -->
+            <section id="text-utils" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Text Utilities</h3>
+                        <p class="vx-section-text">
+                            Utility classes for controlling text color and emphasis.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <p class="vx-text-primary">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-secondary">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-tertiary">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-success">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-warning">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-danger">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-muted">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <pre><code data-copy-code></code></pre>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Font Weight -->
+            <section id="font-weight" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Font Weight</h3>
+                        <p class="vx-section-text">
+                            Use Font Weights to create a clear content hierarchy.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <p class="vx-fw-light">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-fw-normal">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-fw-medium">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-fw-bold">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-fw-bolder">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <pre><code data-copy-code></code></pre>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Alignment -->
+            <section id="alignment" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Alignment</h3>
+                        <p class="vx-section-text">
+                            Use Alignments to create a clear content hierarchy.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <p class="vx-text-start">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-center">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-end">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <pre><code data-copy-code></code></pre>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Transform -->
+            <section id="transform" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Text Transform</h3>
+                        <p class="vx-section-text">
+                            Use Transforms to create a clear content hierarchy.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <p class="vx-text-uppercase">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-lowercase">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                                <p class="vx-text-capitalize">
+                                    The quick brown fox jumped over the lazy dog.
+                                </p>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <pre><code data-copy-code></code></pre>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- List Style -->
+            <section id="list" class="vx-section">
+                <div class="vx-container vx-section-inner">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">List Style</h3>
+                        <p class="vx-section-text">
+                            Use List Styles to create a clear content hierarchy.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <ul class="vx-list vx-list-unstyled">
+                                    <li>Item 1</li>
+                                    <li>Item 2</li>
+                                    <li>Item 3</li>
+                                </ul>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <pre><code data-copy-code></code></pre>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- TOC -->
+        <aside class="vx-docs-toc vx-sidebar-sticky">
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <strong>Table of Contents</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column">
+                    <a href="#headings" class="vx-nav-link is-active">Headings</a>
+                    <a href="#body-text" class="vx-nav-link is-active">Body Text</a>
+                    <a href="#text-utils" class="vx-nav-link is-active">Text Utilities</a>
+                    <a href="#alignment" class="vx-nav-link is-active">Alignment</a>
+                    <a href="#transform" class="vx-nav-link is-active">Transform</a>
+                    <a href="#list" class="vx-nav-link is-active">List Styles</a>
+                </nav>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="vx-footer">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+
+    <script src="js/vertex.js"></script>
+</body>
+</html>

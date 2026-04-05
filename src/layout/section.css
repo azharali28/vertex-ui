@@ -1,0 +1,35 @@
+.vx-main-title {
+    margin-bottom: var(--vx-space-md);
+}
+
+.vx-main-subtitle,
+.vx-main-text {
+    font-size: var(--vx-space-lg);
+    font-weight: 300;
+    margin-bottom: var(--vx-space-md);
+}
+
+.vx-section {
+    padding-block: var(--vx-space-2xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--vx-space-lg);
+}
+
+.vx-section-header {
+    max-width: 600px;
+    margin-bottom: var(--vx-space-xl);
+}
+
+.vx-section-title {
+    font-weight: var(--vx-text-medium);
+    margin-top: var(--vx-space-lg);
+    margin-bottom: var(--vx-space-md);
+}
+
+.vx-section-subtitle,
+.vx-section-text {
+    color: var(--vx-color-gray-600);
+    line-height: 1.6;
+    margin-bottom: var(--vx-space-md);
+}

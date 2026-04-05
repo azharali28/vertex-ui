@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../docs/css/docs.css">
+    <!-- <link rel="stylesheet" href="../dist/vertex.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/azharali28/vertex-ui@v1.0.0/dist/vertex.css">
+    <title>Buttons | Vertex UI v1.0</title>
+</head>
+<body>
+    <header class="vx-navbar vx-navbar-light vx-navbar-sticky">
+        <nav class="vx-container-fluid">
+            <a href="introduction.html" class="vx-navbar-brand">Vertex</a>
+            <div class="vx-collapse">
+                <div class="vx-navbar-nav">
+                    <a href="introduction.html" class="vx-nav-link is-active">Docs</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="vx-docs">
+        <!-- Sidebar -->
+        <aside class="vx-docs-sidebar vx-sidebar-sticky">
+            <!-- Getting Started -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa-solid fa-book-open"></i>
+                        <strong>Getting Started</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="introduction.html" class="vx-nav-link">Introduction</a>
+                    <a href="download.html" class="vx-nav-link">Download</a>
+                </nav>
+            </div>
+            
+            <!-- Layout -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-table-cells-large"></i>
+                        <strong>Layout</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="container.html" class="vx-nav-link">Container</a>
+                    <a href="grid.html" class="vx-nav-link">Grid</a>
+                    <a href="section.html" class="vx-nav-link">Section</a>
+                </nav>
+            </div>
+            
+            <!-- Components -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-list"></i>
+                        <strong>Components</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="alerts.html" class="vx-nav-link">Alerts</a>
+                    <a href="badge.html" class="vx-nav-link">Badge</a>
+                    <a href="buttons.html" class="vx-nav-link">Buttons</a>
+                    <a href="card.html" class="vx-nav-link">Card</a>
+                    <a href="form.html" class="vx-nav-link">Form</a>
+                    <a href="nav.html" class="vx-nav-link">Nav</a>
+                    <a href="navbar.html" class="vx-nav-link">Navbar</a>
+                    <a href="table.html" class="vx-nav-link">Table</a>
+                </nav>
+            </div>
+
+            <!-- Utilities -->
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <i class="fa fa-css3"></i>
+                        <strong>Utilities</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <a href="color.html" class="vx-nav-link">Color</a>
+                    <a href="flex.html" class="vx-nav-link">Flex</a>
+                    <a href="radius.html" class="vx-nav-link">Radius</a>
+                    <a href="spacing.html" class="vx-nav-link">Spacing</a>
+                    <a href="typography.html" class="vx-nav-link">Typography</a>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Main content -->
+        <main id="nav" class="vx-main">
+            <div class="vx-container">
+                <div class="vx-main-intro">
+                    <h1 class="vx-main-title">Buttons</h1>
+                    <p class="vx-main-subtitle">
+                        Buttons trigger actions and interactions. They are essential UI elements designed to guide users through workflows with clear visual hierarchy and states.
+                    </p>
+                </div>
+
+                <!-- Base -->
+                <section id="base" class="vx-section">
+                    <div class="vx-container">
+                        <div class="vx-section-header">
+                            <h3 class="vx-section-title">Base Class</h3>
+                        </div>
+                        <div class="vx-section-body">
+                            <div class="vx-snippet">
+                                <div class="vx-preview">
+                                    <button type="button" class="vx-btn">Base class</button>
+                                </div>
+                                <div class="vx-code" data-copy>
+                                    <pre><code data-copy-code></code></pre>
+                                    <div class="vx-copy-icon" data-copy-icon>
+                                        <i class="fa-regular fa-copy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Variants -->
+                <section id="variants" class="vx-section">
+                    <div class="vx-container">
+                        <div class="vx-section-header">
+                            <h3 class="vx-section-title">Variants</h3>
+                            <p class="vx-section-subtitle">
+                                Buttons variants
+                            </p>
+                        </div>
+                        <div class="vx-section-body">
+                            <div class="vx-snippet">
+                                <div class="vx-preview">
+                                    <button type="button" class="vx-btn vx-btn-primary">Primary</button>
+                                    <button type="button" class="vx-btn vx-btn-secondary">Secondary</button>
+                                    <button type="button" class="vx-btn vx-btn-tertiary">Tertiary</button>
+                                    <button type="button" class="vx-btn vx-btn-success">Success</button>
+                                    <button type="button" class="vx-btn vx-btn-warning">Warning</button>
+                                    <button type="button" class="vx-btn vx-btn-danger">Danger</button>
+                                </div>
+                                <div class="vx-code" data-copy>
+                                    <pre><code data-copy-code></code></pre>
+                                    <div class="vx-copy-icon" data-copy-icon>
+                                        <i class="fa-regular fa-copy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Outlines -->
+                <section id="outline" class="vx-section">
+                    <div class="vx-container">
+                        <div class="vx-section-header">
+                            <h3 class="vx-section-title">Outline buttons</h3>
+                            <p class="vx-section-subtitle">
+                                Button outlines using the <code>.vx-btn-*-outline</code> classes.
+                            </p>
+                        </div>
+                        <div class="vx-section-body">
+                            <div class="vx-snippet">
+                                <div class="vx-preview">
+                                    <button type="button" class="vx-btn vx-btn-primary-outline">Primary outline</button>
+                                    <button type="button" class="vx-btn vx-btn-secondary-outline">Secondary outline</button>
+                                    <button type="button" class="vx-btn vx-btn-tertiary-outline">Tertiary outline</button>
+                                    <button type="button" class="vx-btn vx-btn-success-outline">Success outline</button>
+                                    <button type="button" class="vx-btn vx-btn-warning-outline">Warning outline</button>
+                                    <button type="button" class="vx-btn vx-btn-danger-outline">Danger outline</button>
+                                </div>
+                                <div class="vx-code" data-copy>
+                                    <pre><code data-copy-code></code></pre>
+                                    <div class="vx-copy-icon" data-copy-icon>
+                                        <i class="fa-regular fa-copy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sizes -->
+                <section id="sizes" class="vx-section">
+                    <div class="vx-container">
+                        <div class="vx-section-header">
+                            <h3 class="vx-section-title">Large button</h3>
+                            <p class="vx-section-subtitle">
+                                Use the <code>.vx-btn-lg</code> class for large buttons.
+                            </p>
+                        </div>
+                        <div class="vx-section-body">
+                            <div class="vx-snippet">
+                                <div class="vx-preview">
+                                    <button type="button" class="vx-btn vx-btn-lg vx-btn-primary">
+                                        Large Button
+                                    </button>
+                                </div>
+                                <div class="vx-code" data-copy>
+                                    <pre><code data-copy-code></code></pre>
+                                    <div class="vx-copy-icon" data-copy-icon>
+                                        <i class="fa-regular fa-copy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="vx-section-header">
+                            <h3 class="vx-section-title">Small button</h3>
+                            <p class="vx-section-subtitle">
+                                Use the <code>.btn-sm</code> class for small buttons.
+                            </p>
+                        </div>
+                        <div class="vx-section-body">
+                            <div class="vx-snippet">
+                                <div class="vx-preview">
+                                    <button type="button" class="vx-btn vx-btn-sm vx-btn-primary">
+                                        Small Large
+                                    </button>
+                                </div>
+                                <div class="vx-code" data-copy>
+                                    <pre><code data-copy-code></code></pre>
+                                    <div class="vx-copy-icon" data-copy-icon>
+                                        <i class="fa-regular fa-copy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- TOC -->
+        <aside class="vx-docs-toc vx-sidebar-sticky">
+            <div class="vx-nav-group">
+                <div class="vx-nav-header">
+                    <span class="vx-nav-title">
+                        <strong>Table of Contents</strong>
+                    </span>
+                </div>
+                <nav class="vx-nav vx-nav-column">
+                    <a href="#base" class="vx-nav-link is-active">Base</a>
+                    <a href="#variants" class="vx-nav-link is-active">Variants</a>
+                    <a href="#outline" class="vx-nav-link is-active">Outline</a>
+                    <a href="#sizes" class="vx-nav-link is-active">Sizes</a>
+                </nav>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="vx-footer">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+    <script src="js/vertex.js"></script>
+</body>
+</html>
