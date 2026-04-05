@@ -90,5 +90,26 @@
     --vx-radius-pill: 999px;
 
     /* Navbar height */
-    --vx-navbar-height: 64px
+    --vx-navbar-height: 64px;
+
+    /* Line height */
+    --vx-line-height-sm: 1.2;
+    --vx-line-height-md: 1.8;
+    --vx-line-height-lg: 2.2;
+
+    /* Box shadow */
+    --vx-shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --vx-shadow-md: 0 4px 8px rgba(0,0,0,0.06);
+    --vx-shadow-lg: 0 10px 20px rgba(0,0,0,0.08);
+
+    /* Transition */
+    --vx-transition-fast: 0.15s ease;
+    --vx-transition-normal: 0.25s ease;
+    --vx-transition-slow: 0.35s ease;
+
+    /* Breakpoints */
+    --vx-breakpoint-mobile-sm: 576px;
+    --vx-breakpoint-tablet-md: 768px;
+    --vx-breakpoint-laptop-lg: 992px;
+    --vx-breakpoint-desktop-xl: 1200px;
 }
