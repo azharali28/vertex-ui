@@ -73,6 +73,11 @@
     --vx-text-bold: 800;
     --vx-text-bolder: 1000;
 
+    /* Line height */
+    --vx-line-height-sm: 1.2;
+    --vx-line-height-md: 1.8;
+    --vx-line-height-lg: 2.2;
+
     /* Spacing */
     --vx-space-xs: 4px;
     --vx-space-sm: 8px;
@@ -89,14 +94,6 @@
     --vx-radius-xl: 16px;
     --vx-radius-pill: 999px;
 
-    /* Navbar height */
-    --vx-navbar-height: 64px;
-
-    /* Line height */
-    --vx-line-height-sm: 1.2;
-    --vx-line-height-md: 1.8;
-    --vx-line-height-lg: 2.2;
-
     /* Box shadow */
     --vx-shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
     --vx-shadow-md: 0 4px 8px rgba(0,0,0,0.06);
@@ -112,4 +109,7 @@
     --vx-breakpoint-tablet-md: 768px;
     --vx-breakpoint-laptop-lg: 992px;
     --vx-breakpoint-desktop-xl: 1200px;
+    
+    /* Navbar height */
+    --vx-navbar-height: 64px
 }

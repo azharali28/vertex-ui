@@ -1,8 +1,3 @@
-.vx-border-md { border: 1px solid var(--vx-color-gray-200); }
-.vx-border-lg { border: 2px solid var(--vx-color-gray-200); }
-
-.vx-border-none { border: none; }
-.vx-border-top { border-top: 1px solid var(--vx-color-gray-200); }
-.vx-border-right { border-right: 1px solid var(--vx-color-gray-200); }
-.vx-border-left { border-left: 1px solid var(--vx-color-gray-200); }
-.vx-border-bottom { border-bottom: 1px solid var(--vx-color-gray-200); }
+.vx-shadow-sm { box-shadow: var(--vx-shadow-sm); }
+.vx-shadow-md { box-shadow: var(--vx-shadow-md); }
+.vx-shadow-lg { box-shadow: var(--vx-shadow-lg); }

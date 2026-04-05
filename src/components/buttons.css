@@ -1,18 +1,23 @@
 .vx-btn {
+    display: inline-flex;
     padding: var(--vx-space-sm) var(--vx-space-md);
     border-radius: var(--vx-radius-md);
     background-color: transparent;
     border: none;
     font-size: var(--vx-text-base);
-    transition: background-color 0.25s ease;
+    line-height: 1.8;
+    transition: background-color 0.25s ease-in, color 0.25s ease-in;
+}
+
+/* Button Inline */
+.vx-btn-row {
+    display: flex;
+    flex-direction: column;
+    gap: var(--vx-space-md);
 }
 
 .vx-btn:hover {
     cursor: pointer;
-}
-
-a.vx-btn {
-    text-decoration: none;
 }
 
 .vx-btn-primary { background-color: var(--vx-color-primary); color: var(--vx-color-light); }
@@ -55,6 +60,13 @@ a.vx-btn {
 .vx-btn-danger-outline { border: 1px solid var(--vx-color-danger); color: var(--vx-color-danger); }
 .vx-btn-danger-outline:hover { background-color: var(--vx-color-danger); color: white; }
 
+.vx-btn-light-outline { border: 1px solid var(--vx-color-light); color: var(--vx-color-dark); }
+.vx-btn-light-outline:hover { background-color: var(--vx-color-light); color: var(--vx-color-dark); }
+
+/* Anchor */
+a.vx-btn {
+    text-decoration: none;
+}
 
 /* Button sizes */
 .vx-btn-lg {

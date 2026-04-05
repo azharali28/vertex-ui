@@ -39,4 +39,5 @@ nav {
     position: sticky;
     top: 0;
     width: 100%;
+    box-shadow: var(--vx-shadow-sm);
 }

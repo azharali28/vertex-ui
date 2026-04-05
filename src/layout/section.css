@@ -38,18 +38,20 @@
 }
 
 .vx-section-header {
-    max-width: 600px;
     margin-bottom: var(--vx-space-xl);
 }
 
 .vx-section-title {
     font-weight: var(--vx-text-medium);
-    margin-top: var(--vx-space-lg);
     margin-bottom: var(--vx-space-md);
 }
 
 .vx-section-text {
     color: var(--vx-color-gray-600);
-    line-height: 1.6;
-    margin-bottom: var(--vx-space-md);
+    margin-top: var(--vx-space-sm);
+    margin-bottom: var(--vx-space-xl);
+}
+
+.vx-section-content {
+    margin-bottom: var(--vx-space-lg);
 }

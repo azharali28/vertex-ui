@@ -21,7 +21,7 @@
 .vx-text-success { color: var(--vx-color-success); }
 .vx-text-warning { color: var(--vx-color-warning); }
 .vx-text-danger { color: var(--vx-color-danger); }
-.vx-text-muted { color: var(--vx-color-gray-300); }
+.vx-text-muted { color: var(--vx-color-gray-500); }
 
 /* Text Transform */
 .vx-text-uppercase { text-transform: uppercase; }
@@ -29,11 +29,11 @@
 .vx-text-capitalize { text-transform: capitalize; }
 
 /* Font Weight */
-.vx-fw-light { font-weight: var(--vx-text-light); }
-.vx-fw-normal { font-weight: var(--vx-text-normal); }
-.vx-fw-medium { font-weight: var(--vx-text-medium); }
-.vx-fw-bold { font-weight: var(--vx-text-bold); }
-.vx-fw-bolder { font-weight: var(--vx-text-bolder); }
+.vx-text-light { font-weight: var(--vx-text-light); }
+.vx-text-normal { font-weight: var(--vx-text-normal); }
+.vx-text-medium { font-weight: var(--vx-text-medium); }
+.vx-text-bold { font-weight: var(--vx-text-bold); }
+.vx-text-bolder { font-weight: var(--vx-text-bolder); }
 
 /* List Style */
 .vx-list {
@@ -47,6 +47,7 @@
 
 .vx-list-unstyled {
     list-style: none;
+    padding: 0;
 }
 
 .vx-list-icon {

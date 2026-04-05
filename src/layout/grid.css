@@ -1,7 +1,16 @@
 .vx-grid {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(12, minmax(0, 1fr));
     gap: var(--vx-space-md);
+    width: 100%;
+}
+
+/* v2 */
+.vx-grid-auto {
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(0, 1fr));
+    gap: var(--vx-space-md);
+    width: 100%;
 }
 
 /* Default - xs */
@@ -16,14 +25,7 @@
 .vx-col-9 { grid-column: span 9; }
 .vx-col-10 { grid-column: span 10; }
 .vx-col-11 { grid-column: span 11; }
-.vx-col-12 { grid-column: span 12; }
-
-.vx-grid-auto {
-    display: grid;
-    grid-template-columns: repeat(auto, minmax(0, 1fr));
-    gap: var(--vx-space-md);
-    width: 100%;
-}
+.vx-col-12 { grid-column: span 12; width: 100%; }
 
 /* Responsive grids */
 @media (min-width: 576px) {

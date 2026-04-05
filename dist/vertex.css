@@ -6,7 +6,6 @@
 @import "../src/layout/grid.css";
 @import "../src/layout/section.css";
 
-@import "../src/utilities/utilities.css";
 @import "../src/utilities/color.css";
 @import "../src/utilities/flex.css";
 @import "../src/utilities/radius.css";
@@ -14,6 +13,7 @@
 @import "../src/utilities/typography.css";
 @import "../src/utilities/border.css";
 @import "../src/utilities/shadow.css";
+@import "../src/utilities/utilities.css";
 
 
 @import "../src/components/badge.css";

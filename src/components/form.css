@@ -1,24 +1,27 @@
 .vx-field {
     display: flex;
     flex-direction: column;
-    /* gap: var(--vx-space-md); */
+    gap: var(--vx-space-md);
 }
 
 .vx-label {
+    width: 100%;
     font-size: var(--vx-text-base);
 }
 
-.vx-input,
-.vx-select {
+/* Input */
+.vx-input {
     width: 100%;
     padding: var(--vx-space-sm) var(--vx-space-md);
     border: 1px solid var(--vx-color-gray-200);
     border-radius: var(--vx-radius-md);
     font-size: var(--vx-text-base);
+    line-height: var(--vx-line-height-md);
     transition: border-color 0.25s ease;
 }
 
 .vx-input::placeholder {
+    font-family: var(--vx-font-family);
     font-size: var(--vx-text-base);
     color: var(--vx-color-gray-400);
 }
@@ -34,3 +37,6 @@
 .vx-field.is-error .vx-input-error {
     color: var(--vx-color-danger);
 }
+
+/* Select */
+/* .vx-select {} */
