@@ -12,6 +12,9 @@
 @import "../src/utilities/radius.css";
 @import "../src/utilities/spacing.css";
 @import "../src/utilities/typography.css";
+@import "../src/utilities/border.css";
+@import "../src/utilities/shadow.css";
+
 
 @import "../src/components/badge.css";
 @import "../src/components/buttons.css";
@@ -21,3 +24,5 @@
 @import "../src/components/table.css";
 @import "../src/components/navbar.css";
 @import "../src/components/nav.css";
+
+@import "../src/animations/animate.css";
