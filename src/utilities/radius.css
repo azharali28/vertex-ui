@@ -4,3 +4,13 @@
 .vx-rounded-lg { border-radius: var(--vx-radius-lg); }
 .vx-rounded-xl { border-radius: var(--vx-radius-xl); }
 .vx-rounded-full { border-radius: var(--vx-radius-pill); }
+
+.vx-rounded-top-sm { border-top-left-radius: var(--vx-radius-sm); border-top-right-radius: var(--vx-radius-sm); }
+.vx-rounded-top-md { border-top-left-radius: var(--vx-radius-md); border-top-right-radius: var(--vx-radius-md); }
+.vx-rounded-top-lg { border-top-left-radius: var(--vx-radius-lg); border-top-right-radius: var(--vx-radius-lg); }
+.vx-rounded-top-xl { border-top-left-radius: var(--vx-radius-xl); border-top-right-radius: var(--vx-radius-xl); }
+
+.vx-rounded-bottom-sm { border-bottom-left-radius: var(--vx-radius-sm); border-bottom-right-radius: var(--vx-radius-sm); }
+.vx-rounded-bottom-md { border-bottom-left-radius: var(--vx-radius-md); border-bottom-right-radius: var(--vx-radius-md); }
+.vx-rounded-bottom-lg { border-bottom-left-radius: var(--vx-radius-lg); border-bottom-right-radius: var(--vx-radius-lg); }
+.vx-rounded-bottom-xl { border-bottom-left-radius: var(--vx-radius-xl); border-bottom-right-radius: var(--vx-radius-xl); }

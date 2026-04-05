@@ -2,6 +2,16 @@
     display: flex;
 }
 
+.vx-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.vx-flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .vx-flex-column {
     display: flex;
     flex-direction: column;
@@ -19,5 +29,6 @@
 .vx-items-end { justify-items: end; }
 
 .vx-justify-start { justify-content: start; }
+.vx-justify-center { justify-content: center; }
 .vx-justify-between { justify-content: space-between; }
 .vx-justify-end { justify-content: end; }
