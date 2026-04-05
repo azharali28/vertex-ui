@@ -4,6 +4,7 @@
     gap: var(--vx-space-md);
 }
 
+/* Default - xs */
 .vx-col-1 { grid-column: span 1; }
 .vx-col-2 { grid-column: span 2; }
 .vx-col-3 { grid-column: span 3; }
@@ -17,4 +18,60 @@
 .vx-col-11 { grid-column: span 11; }
 .vx-col-12 { grid-column: span 12; }
 
+.vx-grid-auto {
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(0, 1fr));
+    gap: var(--vx-space-md);
+    width: 100%;
+}
+
 /* Responsive grids */
+@media (min-width: 576px) {
+    .vx-col-sm-1 { grid-column: span 1; }
+    .vx-col-sm-2 { grid-column: span 2; }
+    .vx-col-sm-3 { grid-column: span 3; }
+    .vx-col-sm-4 { grid-column: span 4; }
+    .vx-col-sm-5 { grid-column: span 5; }
+    .vx-col-sm-6 { grid-column: span 6; }
+    .vx-col-sm-7 { grid-column: span 7; }
+    .vx-col-sm-8 { grid-column: span 8; }
+    .vx-col-sm-9 { grid-column: span 9; }
+    .vx-col-sm-10 { grid-column: span 10; }
+    .vx-col-sm-11 { grid-column: span 11; }
+    .vx-col-sm-12 { grid-column: span 12; width: 100%; }
+}
+
+@media (min-width: 768px) {
+    .vx-col-md-1 { grid-column: span 1; }
+    .vx-col-md-2 { grid-column: span 2; }
+    .vx-col-md-3 { grid-column: span 3; }
+    .vx-col-md-4 { grid-column: span 4; }
+    .vx-col-md-5 { grid-column: span 5; }
+    .vx-col-md-6 { grid-column: span 6; }
+    .vx-col-md-7 { grid-column: span 7; }
+    .vx-col-md-8 { grid-column: span 8; }
+    .vx-col-md-9 { grid-column: span 9; }
+    .vx-col-md-10 { grid-column: span 10; }
+    .vx-col-md-11 { grid-column: span 11; }
+    .vx-col-md-12 { grid-column: span 12; width: 100%; }
+}
+
+@media (min-width: 992px) {
+    .vx-col-lg-1 { grid-column: span 1; }
+    .vx-col-lg-2 { grid-column: span 2; }
+    .vx-col-lg-3 { grid-column: span 3; }
+    .vx-col-lg-4 { grid-column: span 4; }
+    .vx-col-lg-5 { grid-column: span 5; }
+    .vx-col-lg-6 { grid-column: span 6; }
+    .vx-col-lg-7 { grid-column: span 7; }
+    .vx-col-lg-8 { grid-column: span 8; }
+    .vx-col-lg-9 { grid-column: span 9; }
+    .vx-col-lg-10 { grid-column: span 10; }
+    .vx-col-lg-11 { grid-column: span 11; }
+    .vx-col-lg-12 { grid-column: span 12; width: 100%; }
+}
+
+/* Justify */
+.vx-justify-items-start { justify-items: start; }
+.vx-justify-items-center { justify-items: center; }
+.vx-justify-items-end { justify-items: end; }
