@@ -14,9 +14,12 @@
 .vx-order-3 { order: 3; }
 
 /* Nav header */
-.vx-nav-header i {
-    margin-right: var(--vx-space-sm);
+.vx-nav-header {
+    display: flex;
+    gap: var(--vx-space-md);
 }
+
+.vx-nav-header
 
 /* Nav links */
 .vx-nav-link {

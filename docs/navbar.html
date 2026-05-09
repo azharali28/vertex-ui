@@ -9,58 +9,58 @@
     <title>Navbar | Vertex UI v1.0</title>
 </head>
 <body>
+    <!-- Header/ Navbar -->
     <header class="vx-navbar vx-navbar-light vx-navbar-sticky">
-        <nav class="vx-container-fluid">
+        <nav class="vx-container vx-container-2xl">
             <a href="index.html" class="vx-navbar-brand">Vertex</a>
             <div class="vx-collapse">
                 <div class="vx-navbar-nav">
                     <a href="index.html" class="vx-nav-link is-active">Docs</a>
+                    <a href="templates.html" class="vx-nav-link">Templates</a>
                 </div>
             </div>
         </nav>
     </header>
 
-        <div class="vx-docs">
+
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
             <!-- Sidebar -->
             <aside class="vx-docs-sidebar vx-sidebar-sticky">
                 <!-- Getting Started -->
-                <div class="vx-nav-group">
+                <div class="vx-nav-group-icon">
                     <div class="vx-nav-header">
-                        <span class="vx-nav-title">
-                            <i class="fa-solid fa-book-open"></i>
-                            <strong>Getting Started</strong>
-                        </span>
+                        <i class="fa-solid fa-book-open"></i>
+                        <strong>Getting Started</strong>
                     </div>
-                    <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+
+                    <nav class="vx-nav vx-nav-column">
                         <a href="index.html" class="vx-nav-link">Introduction</a>
                         <a href="download.html" class="vx-nav-link">Download</a>
                     </nav>
                 </div>
-                
+
                 <!-- Layout -->
-                <div class="vx-nav-group">
+                <div class="vx-nav-group-icon">
                     <div class="vx-nav-header">
-                        <span class="vx-nav-title">
-                            <i class="fa fa-table-cells-large"></i>
-                            <strong>Layout</strong>
-                        </span>
+                        <i class="fa fa-table-cells-large"></i>
+                        <strong>Layout</strong>
                     </div>
-                    <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+
+                    <nav class="vx-nav vx-nav-column">
                         <a href="container.html" class="vx-nav-link">Container</a>
                         <a href="grid.html" class="vx-nav-link">Grid</a>
                         <a href="section.html" class="vx-nav-link">Section</a>
                     </nav>
                 </div>
-                
+
                 <!-- Components -->
-                <div class="vx-nav-group">
+                <div class="vx-nav-group-icon">
                     <div class="vx-nav-header">
-                        <span class="vx-nav-title">
-                            <i class="fa fa-list"></i>
-                            <strong>Components</strong>
-                        </span>
+                        <i class="fa fa-list"></i>
+                        <strong>Components</strong>
                     </div>
-                    <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <nav class="vx-nav vx-nav-column">
                         <a href="alerts.html" class="vx-nav-link">Alerts</a>
                         <a href="badge.html" class="vx-nav-link">Badge</a>
                         <a href="buttons.html" class="vx-nav-link">Buttons</a>
@@ -73,14 +73,12 @@
                 </div>
 
                 <!-- Utilities -->
-                <div class="vx-nav-group">
+                <div class="vx-nav-group-icon">
                     <div class="vx-nav-header">
-                        <span class="vx-nav-title">
-                            <i class="fa fa-css3"></i>
-                            <strong>Utilities</strong>
-                        </span>
+                        <i class="fa fa-css3"></i>
+                        <strong>Utilities</strong>
                     </div>
-                    <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
+                    <nav class="vx-nav vx-nav-column">
                         <a href="color.html" class="vx-nav-link">Color</a>
                         <a href="flex.html" class="vx-nav-link">Flex</a>
                         <a href="radius.html" class="vx-nav-link">Radius</a>
@@ -91,165 +89,151 @@
             </aside>
 
             <!-- Main content -->
-            <main id="nav" class="vx-main">
-                <div class="vx-container">
-                    <div class="vx-container vx-main-intro">
-                        <h1 class="vx-main-title">Navbar</h1>
-                        <p class="vx-main-subtitle">
-                            The navbar is a primary navigation container, typically placed at the top. It provides access to key areas of the application and maintains consistent orientation.
+            <div class="vx-doc-content">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">
+                        Navbar
+                    </h1>
+                    <p class="vx-main-subtitle">
+                        The navbar is a primary navigation container, typically placed at the top. It provides access to key areas of the application and maintains consistent orientation.
+                    </p>
+                </div>
+
+                <!-- Example -->
+                <section class="vx-section-sm" id="example">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Example</h3>
+                    </div>
+                    <div class="vx-section-content">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <nav class="vx-navbar">
+                                    <div class="vx-container-fluid vx-flex vx-items-center">
+                                        <a href="index.html" class="vx-navbar-brand">Vertex</a>
+                                        <div class="vx-collapse">
+                                            <div class="vx-navbar-nav">
+                                                <a href="#" class="vx-nav-link is-active">Home</a>
+                                                <a href="#" class="vx-nav-link">About</a>
+                                                <a href="#" class="vx-nav-link">Contact</a>
+                                                <a href="#" class="vx-nav-link is-disabled" aria-disabled="true">Disabled</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Variants -->
+                <section class="vx-section-sm" id="variants">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Variants</h3>
+                        <p class="vx-section-subtitle">
+                            Use the classes <code>.vx-navbar-*</code> to get background with navbars.
                         </p>
                     </div>
-
-                    <!-- Example -->
-                    <section id="example" class="vx-section">
-                        <div class="vx-container">
-                            <div class="vx-section-header">
-                                <h3 class="vx-section-title">Example</h3>
-                            </div>
-                            <div class="vx-section-content">
-                                <div class="vx-snippet">
-                                    <div class="vx-preview vx-stack-md">
-                                        <nav class="vx-navbar">
-                                            <div class="vx-container-fluid vx-flex vx-items-center">
-                                                <a href="index.html" class="vx-navbar-brand">Vertex</a>
-                                                <div class="vx-collapse">
-                                                    <div class="vx-navbar-nav">
-                                                        <a href="#" class="vx-nav-link is-active">Home</a>
-                                                        <a href="#" class="vx-nav-link">About</a>
-                                                        <a href="#" class="vx-nav-link">Contact</a>
-                                                        <a href="#" class="vx-nav-link is-disabled" aria-disabled="true">Disabled</a>
-                                                    </div>
-                                                </div>
+                    <div class="vx-section-content">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <!-- Light -->
+                                <nav class="vx-navbar vx-navbar-light">
+                                    <div class="vx-container-fluid vx-flex vx-items-center">
+                                        <a href="index.html" class="vx-navbar-brand">Vertex</a>
+                                        <div class="vx-collapse">
+                                            <div class="vx-navbar-nav">
+                                                <a href="#" class="vx-nav-link is-active">Home</a>
+                                                <a href="#" class="vx-nav-link">About</a>
+                                                <a href="#" class="vx-nav-link">Contact</a>
+                                                <a href="#" class="vx-nav-link is-disabled" aria-disabled="true">Disabled</a>
                                             </div>
-                                        </nav>
-                                    </div>
-                                    <div class="vx-code" data-copy>
-                                        <pre><code data-copy-code></code></pre>
-                                        <div class="vx-copy-icon" data-copy-icon>
-                                            <i class="fa-regular fa-copy"></i>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                                </nav>
 
-                    <!-- Variants -->
-                    <section id="variants" class="vx-section">
-                        <div class="vx-container">
-                            <div class="vx-section-header">
-                                <h3 class="vx-section-title">Variants</h3>                            
-                                <p class="vx-section-subtitle">
-                                    Use the classes <code>.vx-navbar-*</code> to get background with navbars.
-                                </p>
-                            </div>
-                            <div class="vx-section-content">
-                                <div class="vx-snippet">
-                                    <div class="vx-preview vx-stack-md">
-                                        <!-- Light -->
-                                        <nav class="vx-navbar vx-navbar-light">
-                                            <div class="vx-container-fluid vx-flex vx-items-center">
-                                                <a href="index.html" class="vx-navbar-brand">Vertex</a>
-                                                <div class="vx-collapse">
-                                                    <div class="vx-navbar-nav">
-                                                        <a href="#" class="vx-nav-link is-active">Home</a>
-                                                        <a href="#" class="vx-nav-link">About</a>
-                                                        <a href="#" class="vx-nav-link">Contact</a>
-                                                        <a href="#" class="vx-nav-link is-disabled" aria-disabled="true">Disabled</a>
-                                                    </div>
-                                                </div>
+                                <!-- Dark -->
+                                <nav class="vx-navbar vx-navbar-dark">
+                                    <div class="vx-container-fluid vx-flex vx-items-center">
+                                        <a href="index.html" class="vx-navbar-brand">Vertex</a>
+                                        <div class="vx-collapse">
+                                            <div class="vx-navbar-nav">
+                                                <a href="#" class="vx-nav-link is-active">Home</a>
+                                                <a href="#" class="vx-nav-link">About</a>
+                                                <a href="#" class="vx-nav-link">Contact</a>
+                                                <a href="#" class="vx-nav-link is-disabled" aria-disabled="true">Disabled</a>
                                             </div>
-                                        </nav>
-
-                                        <!-- Dark -->
-                                        <nav class="vx-navbar vx-navbar-dark">
-                                            <div class="vx-container-fluid vx-flex vx-items-center">
-                                                <a href="index.html" class="vx-navbar-brand">Vertex</a>
-                                                <div class="vx-collapse">
-                                                    <div class="vx-navbar-nav">
-                                                        <a href="#" class="vx-nav-link is-active">Home</a>
-                                                        <a href="#" class="vx-nav-link">About</a>
-                                                        <a href="#" class="vx-nav-link">Contact</a>
-                                                        <a href="#" class="vx-nav-link is-disabled" aria-disabled="true">Disabled</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </nav>
-                                    </div>
-                                    <div class="vx-code" data-copy>
-                                        <pre><code data-copy-code></code></pre>
-                                        <div class="vx-copy-icon" data-copy-icon>
-                                            <i class="fa-regular fa-copy"></i>
                                         </div>
                                     </div>
+                                </nav>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
                                 </div>
+                                <pre><code data-copy-code></code></pre>
                             </div>
                         </div>
-                    </section>
-
-                    <!-- BUTTON -->
-                    <section id="button" class="vx-section">
-                        <div class="vx-container">
-                            <div class="vx-section-header">
-                                <h3 class="vx-section-title">Navbar with Buttons</h3>                            
-                                <p class="vx-section-subtitle">
-                                    Use the classes <code>.vx-navbar-*</code> to get background with navbars.
-                                </p>
-                            </div>
-                            <div class="vx-section-content">
-                                <div class="vx-snippet">
-                                    <div class="vx-preview vx-stack-md">
-                                        <!-- Light -->
-                                        <nav class="vx-navbar vx-navbar-light">
-                                            <div class="vx-container-fluid vx-flex vx-align-items-center vx-justify-content-between">
-                                                <!-- Left -->
-                                                <div class="vx-flex vx-items-center vx-gap-md">
-                                                    <a href="index.html" class="vx-navbar-brand">Vertex</a>
-                                                    <div class="vx-collapse">
-                                                        <div class="vx-navbar-nav">
-                                                            <a href="#" class="vx-nav-link is-active">Home</a>
-                                                            <a href="#" class="vx-nav-link">About</a>
-                                                            <a href="#" class="vx-nav-link">Contact</a>
-                                                            <a href="#" class="vx-nav-link is-disabled" aria-disabled="true">Disabled</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- Right -->
-                                                <div class="vx-flex vx-align-items-center vx-gap-sm">
-                                                    <button class="vx-btn vx-btn-primary">Login</button>
-                                                </div>
-                                            </div>
-                                        </nav>
-                                    </div>
-                                    <div class="vx-code" data-copy>
-                                        <pre><code data-copy-code></code></pre>
-                                        <div class="vx-copy-icon" data-copy-icon>
-                                            <i class="fa-regular fa-copy"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </main>
-
-            <!-- TOC -->
-            <aside class="vx-docs-toc vx-sidebar-sticky">
-                <div class="vx-nav-group">
-                    <div class="vx-nav-header">
-                        <span class="vx-nav-title">
-                            <strong>Table of Contents</strong>
-                        </span>
                     </div>
-                    <nav class="vx-nav vx-nav-column">
-                        <a href="#example" class="vx-nav-link is-active">Example</a>
-                        <a href="#variants" class="vx-nav-link is-active">Variants</a>
-                        <a href="#button" class="vx-nav-link is-active">Button</a>
-                    </nav>
-                </div>
-            </aside>
+                </section>
+
+                <!-- Button -->
+                <section class="vx-section-sm" id="button">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Navbar with Buttons</h3>
+                        <p class="vx-section-subtitle">
+                            Use the classes <code>.vx-navbar-*</code> to get background with navbars.
+                        </p>
+                    </div>
+                    <div class="vx-section-content">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <!-- Light -->
+                                <nav class="vx-navbar vx-navbar-light">
+                                    <div class="vx-container-fluid vx-flex vx-align-items-center vx-justify-content-between">
+                                        <!-- Left -->
+                                        <div class="vx-flex vx-items-center vx-gap-md">
+                                            <a href="index.html" class="vx-navbar-brand">Vertex</a>
+                                            <div class="vx-collapse">
+                                                <div class="vx-navbar-nav">
+                                                    <a href="#" class="vx-nav-link is-active">Home</a>
+                                                    <a href="#" class="vx-nav-link">About</a>
+                                                    <a href="#" class="vx-nav-link">Contact</a>
+                                                    <a href="#" class="vx-nav-link is-disabled" aria-disabled="true">Disabled</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Right -->
+                                        <div class="vx-flex vx-align-items-center vx-gap-sm">
+                                            <button class="vx-btn vx-btn-primary">Login</button>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
+    </div>
+
+    <footer class="vx-doc-footer vx-lh-lg">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
 
     <script src="js/vertex.js"></script>
 </body>

@@ -5,7 +5,7 @@
     background-color: transparent;
     border: none;
     font-size: var(--vx-text-base);
-    line-height: 1.8;
+    line-height: var(--vx-line-height-md);
     transition: background-color 0.25s ease-in, color 0.25s ease-in;
 }
 

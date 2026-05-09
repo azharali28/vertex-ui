@@ -1,0 +1,25 @@
+/* Dashboard */
+.vx-main {
+    height: 100dvh;
+}
+
+.vx-dashboard {
+    display: grid;
+    grid-template-columns: minmax(250px, 350px) 1fr;
+    min-height: 100vh;
+}
+
+.vx-divider {
+    height: 1px;
+    width: 100%;
+    background-color: var(--vx-color-gray-200);
+    margin: 10px 0;
+}
+
+.vx-dashboard .vx-sidebar {
+    background-color: var(--vx-color-gray-50);
+}
+
+.vx-dashboard-title {
+    border-bottom: 1px solid var(--vx-color-gray-200);
+}

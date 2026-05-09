@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.vx-flex-center { align-items: center; }
+
+.vx-flex-between { justify-content: space-between; }
+
 .vx-flex-column-sm {
     display: flex;
     flex-direction: column;
@@ -23,11 +27,11 @@
 .vx-wrap { flex-wrap: wrap; }
 .vx-nowrap { flex-wrap: nowrap; }
 
-.vx-align-items-start { align-items: start; }
-.vx-align-items-center { align-items: center; }
-.vx-align-items-baseline { align-items: baseline; }
-.vx-align-items-stretch { align-items: stretch; }
-.vx-align-items-end { align-items: end; }
+.vx-align-item-start { align-items: start; }
+.vx-align-item-center { align-items: center; }
+.vx-align-item-baseline { align-items: baseline; }
+.vx-align-item-stretch { align-items: stretch; }
+.vx-align-item-end { align-items: end; }
 
 .vx-justify-content-start { justify-content: flex-start; }
 .vx-justify-content-between { justify-content: space-between; }

@@ -39,3 +39,12 @@ document.querySelectorAll('.vx-clipboard-icon').forEach(btn => {
     });
 
 });
+
+// Dismissable
+document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-dismiss]');
+    if (!btn) return;
+
+    const target = btn.closest(btn.dataset.dismiss);
+    if (target) target.classList.add('is-hidden');
+})

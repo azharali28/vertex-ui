@@ -15,7 +15,6 @@
 @import "../src/utilities/shadow.css";
 @import "../src/utilities/utilities.css";
 
-
 @import "../src/components/badge.css";
 @import "../src/components/buttons.css";
 @import "../src/components/form.css";
@@ -26,3 +25,6 @@
 @import "../src/components/nav.css";
 
 @import "../src/animations/animate.css";
+
+/* Templates */
+@import "../docs/css/templates.css";

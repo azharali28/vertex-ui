@@ -9,100 +9,96 @@
     <title>Typography | Vertex UI v1.0</title>
 </head>
 <body>
+    <!-- Navbar -->
     <header class="vx-navbar vx-navbar-light vx-navbar-sticky">
-        <nav class="vx-container-fluid">
+        <nav class="vx-container vx-container-2xl">
             <a href="index.html" class="vx-navbar-brand">Vertex</a>
             <div class="vx-collapse">
                 <div class="vx-navbar-nav">
                     <a href="index.html" class="vx-nav-link is-active">Docs</a>
+                    <a href="templates.html" class="vx-nav-link">Templates</a>
                 </div>
             </div>
         </nav>
     </header>
 
-    <div class="vx-docs">
-        <!-- Sidebar -->
-        <aside class="vx-docs-sidebar vx-sidebar-sticky">
-            <!-- Getting Started -->
-            <div class="vx-nav-group">
-                <div class="vx-nav-header">
-                    <span class="vx-nav-title">
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
+            <!-- Sidebar -->
+            <aside class="vx-docs-sidebar vx-sidebar-sticky">
+                <!-- Getting Started -->
+                <div class="vx-nav-group-icon">
+                    <div class="vx-nav-header">
                         <i class="fa-solid fa-book-open"></i>
                         <strong>Getting Started</strong>
-                    </span>
+                    </div>
+
+                    <nav class="vx-nav vx-nav-column">
+                        <a href="index.html" class="vx-nav-link">Introduction</a>
+                        <a href="download.html" class="vx-nav-link">Download</a>
+                    </nav>
                 </div>
-                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
-                    <a href="index.html" class="vx-nav-link">Introduction</a>
-                    <a href="download.html" class="vx-nav-link">Download</a>
-                </nav>
-            </div>
-            
-            <!-- Layout -->
-            <div class="vx-nav-group">
-                <div class="vx-nav-header">
-                    <span class="vx-nav-title">
+
+                <!-- Layout -->
+                <div class="vx-nav-group-icon">
+                    <div class="vx-nav-header">
                         <i class="fa fa-table-cells-large"></i>
                         <strong>Layout</strong>
-                    </span>
+                    </div>
+
+                    <nav class="vx-nav vx-nav-column">
+                        <a href="container.html" class="vx-nav-link">Container</a>
+                        <a href="grid.html" class="vx-nav-link">Grid</a>
+                        <a href="section.html" class="vx-nav-link">Section</a>
+                    </nav>
                 </div>
-                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
-                    <a href="container.html" class="vx-nav-link">Container</a>
-                    <a href="grid.html" class="vx-nav-link">Grid</a>
-                    <a href="section.html" class="vx-nav-link">Section</a>
-                </nav>
-            </div>
-            
-            <!-- Components -->
-            <div class="vx-nav-group">
-                <div class="vx-nav-header">
-                    <span class="vx-nav-title">
+
+                <!-- Components -->
+                <div class="vx-nav-group-icon">
+                    <div class="vx-nav-header">
                         <i class="fa fa-list"></i>
                         <strong>Components</strong>
-                    </span>
+                    </div>
+                    <nav class="vx-nav vx-nav-column">
+                        <a href="alerts.html" class="vx-nav-link">Alerts</a>
+                        <a href="badge.html" class="vx-nav-link">Badge</a>
+                        <a href="buttons.html" class="vx-nav-link">Buttons</a>
+                        <a href="card.html" class="vx-nav-link">Card</a>
+                        <a href="form.html" class="vx-nav-link">Form</a>
+                        <a href="nav.html" class="vx-nav-link">Nav</a>
+                        <a href="navbar.html" class="vx-nav-link">Navbar</a>
+                        <a href="table.html" class="vx-nav-link">Table</a>
+                    </nav>
                 </div>
-                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
-                    <a href="alerts.html" class="vx-nav-link">Alerts</a>
-                    <a href="badge.html" class="vx-nav-link">Badge</a>
-                    <a href="buttons.html" class="vx-nav-link">Buttons</a>
-                    <a href="card.html" class="vx-nav-link">Card</a>
-                    <a href="form.html" class="vx-nav-link">Form</a>
-                    <a href="nav.html" class="vx-nav-link">Nav</a>
-                    <a href="navbar.html" class="vx-nav-link">Navbar</a>
-                    <a href="table.html" class="vx-nav-link">Table</a>
-                </nav>
-            </div>
 
-            <!-- Utilities -->
-            <div class="vx-nav-group">
-                <div class="vx-nav-header">
-                    <span class="vx-nav-title">
+                <!-- Utilities -->
+                <div class="vx-nav-group-icon">
+                    <div class="vx-nav-header">
                         <i class="fa fa-css3"></i>
                         <strong>Utilities</strong>
-                    </span>
+                    </div>
+                    <nav class="vx-nav vx-nav-column">
+                        <a href="color.html" class="vx-nav-link">Color</a>
+                        <a href="flex.html" class="vx-nav-link">Flex</a>
+                        <a href="radius.html" class="vx-nav-link">Radius</a>
+                        <a href="spacing.html" class="vx-nav-link">Spacing</a>
+                        <a href="typography.html" class="vx-nav-link">Typography</a>
+                    </nav>
                 </div>
-                <nav class="vx-nav vx-nav-column" style="margin-left: var(--vx-space-md);">
-                    <a href="color.html" class="vx-nav-link">Color</a>
-                    <a href="flex.html" class="vx-nav-link">Flex</a>
-                    <a href="radius.html" class="vx-nav-link">Radius</a>
-                    <a href="spacing.html" class="vx-nav-link">Spacing</a>
-                    <a href="typography.html" class="vx-nav-link">Typography</a>
-                </nav>
-            </div>
-        </aside>
+            </aside>
 
-        <!-- Main content -->
-        <main id="typography" class="vx-main">
-            <div class="vx-container vx-main-intro">
-                <h1 class="vx-main-title">Typography</h1>
-                <p class="vx-main-text">
-                    Typography controls how text is displayed across your application.
-                    It ensures readability, consistency, and visual hierarchy.
-                </p>
-            </div>
+            <!-- Main content -->
+            <div class="vx-doc-content">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">Typography</h1>
+                    <p class="vx-main-text">
+                        Typography controls how text is displayed across your application.
+                        It ensures readability, consistency, and visual hierarchy.
+                    </p>
+                </div>
 
-            <!-- Headings -->
-            <section id="headings" class="vx-section">
-                <div class="vx-container vx-section-inner">
+                <!-- Headings -->
+                <section class="vx-section-sm" id="headings">
                     <div class="vx-section-header">
                         <h3 class="vx-section-title">Headings</h3>
                         <p class="vx-section-text">
@@ -127,12 +123,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <!-- Body Text -->
-            <section id="body-text" class="vx-section">
-                <div class="vx-container vx-section-inner">
+                <!-- Body Text -->
+                <section class="vx-section-sm" id="body">
                     <div class="vx-section-header">
                         <h3 class="vx-section-title">Body Text</h3>
                         <p class="vx-section-text">
@@ -163,12 +157,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <!-- Text Utilities -->
-            <section id="text-utils" class="vx-section">
-                <div class="vx-container vx-section-inner">
+                <!-- Text Utilities -->
+                <section class="vx-section-sm" id="text-utils">
                     <div class="vx-section-header">
                         <h3 class="vx-section-title">Text Utilities</h3>
                         <p class="vx-section-text">
@@ -208,12 +200,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <!-- Font Weight -->
-            <section id="font-weight" class="vx-section">
-                <div class="vx-container vx-section-inner">
+                <!-- Font Weight -->
+                <section class="vx-section-sm" id="font-weight">
                     <div class="vx-section-header">
                         <h3 class="vx-section-title">Font Weight</h3>
                         <p class="vx-section-text">
@@ -247,45 +237,43 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <!-- Alignment -->
-            <section id="alignment" class="vx-section">
-                <div class="vx-container vx-section-inner">
-                    <div class="vx-section-header">
-                        <h3 class="vx-section-title">Alignment</h3>
-                        <p class="vx-section-text">
-                            Use Alignments to create a clear content hierarchy.
-                        </p>
-                    </div>
-                    <div class="vx-section-body">
-                        <div class="vx-snippet">
-                            <div class="vx-preview vx-stack-md">
-                                <p class="vx-text-start">
-                                    The quick brown fox jumped over the lazy dog.
-                                </p>
-                                <p class="vx-text-center">
-                                    The quick brown fox jumped over the lazy dog.
-                                </p>
-                                <p class="vx-text-end">
-                                    The quick brown fox jumped over the lazy dog.
-                                </p>
-                            </div>
-                            <div class="vx-code" data-copy>
-                                <pre><code data-copy-code></code></pre>
-                                <div class="vx-copy-icon" data-copy-icon>
-                                    <i class="fa-regular fa-copy"></i>
+                <!-- Alignment -->
+                <section class="vx-section-sm" id="alignment">
+                    <div class="vx-container vx-section-inner">
+                        <div class="vx-section-header">
+                            <h3 class="vx-section-title">Alignment</h3>
+                            <p class="vx-section-text">
+                                Use Alignments to create a clear content hierarchy.
+                            </p>
+                        </div>
+                        <div class="vx-section-body">
+                            <div class="vx-snippet">
+                                <div class="vx-preview vx-stack-md">
+                                    <p class="vx-text-start">
+                                        The quick brown fox jumped over the lazy dog.
+                                    </p>
+                                    <p class="vx-text-center">
+                                        The quick brown fox jumped over the lazy dog.
+                                    </p>
+                                    <p class="vx-text-end">
+                                        The quick brown fox jumped over the lazy dog.
+                                    </p>
+                                </div>
+                                <div class="vx-code" data-copy>
+                                    <pre><code data-copy-code></code></pre>
+                                    <div class="vx-copy-icon" data-copy-icon>
+                                        <i class="fa-regular fa-copy"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <!-- Transform -->
-            <section id="transform" class="vx-section">
-                <div class="vx-container vx-section-inner">
+                <!-- Transform -->
+                <section class="vx-section-sm" id="transform">
                     <div class="vx-section-header">
                         <h3 class="vx-section-title">Text Transform</h3>
                         <p class="vx-section-text">
@@ -313,12 +301,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <!-- List Style -->
-            <section id="list" class="vx-section">
-                <div class="vx-container vx-section-inner">
+                <!-- List Style -->
+                <section class="vx-section-sm" itemid="list">
                     <div class="vx-section-header">
                         <h3 class="vx-section-title">List Style</h3>
                         <p class="vx-section-text">
@@ -342,37 +328,35 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- TOC -->
-        <aside class="vx-docs-toc vx-sidebar-sticky">
-            <div class="vx-nav-group">
-                <div class="vx-nav-header">
-                    <span class="vx-nav-title">
-                        <strong>Table of Contents</strong>
-                    </span>
-                </div>
-                <nav class="vx-nav vx-nav-column">
-                    <a href="#headings" class="vx-nav-link is-active">Headings</a>
-                    <a href="#body-text" class="vx-nav-link is-active">Body Text</a>
-                    <a href="#text-utils" class="vx-nav-link is-active">Text Utilities</a>
-                    <a href="#alignment" class="vx-nav-link is-active">Alignment</a>
-                    <a href="#transform" class="vx-nav-link is-active">Transform</a>
-                    <a href="#list" class="vx-nav-link is-active">List Styles</a>
-                </nav>
+                </section>
             </div>
-        </aside>
+
+            <!-- TOC -->
+            <aside class="vx-docs-toc vx-sidebar-sticky">
+                <div class="vx-nav-group">
+                    <div class="vx-nav-header">
+                        <strong>Navigate</strong>
+                    </div>
+                    <nav class="vx-nav vx-nav-column">
+                        <a href="#headings" class="vx-nav-link">Headings</a>
+                        <a href="#body" class="vx-nav-link">Body Text</a>
+                        <a href="#text-utils" class="vx-nav-link">Text Utilities</a>
+                        <a href="#font-weight" class="vx-nav-link">Font Weight</a>
+                        <a href="#alignmnet" class="vx-nav-link">Text Alignmnet</a>
+                        <a href="#transform" class="vx-nav-link">Text Transform</a>
+                        <a href="#list" class="vx-nav-link">List Style</a>
+                    </nav>
+                </div>
+            </aside>
+        </div>
     </div>
 
-    <footer class="vx-footer">
+    <footer class="vx-doc-footer vx-lh-lg">
         <div class="vx-container-fluid">
             &copy; All rights reserved. <br>
             Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
         </div>
     </footer>
-
 
     <script src="js/vertex.js"></script>
 </body>
