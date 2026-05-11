@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../../dist/vertex.css">
+    <link rel="stylesheet" href="../../assets/css/docs.css">
+    <title>Card | Vertex UI v1.0</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <script>
+    fetch('../../views/partials/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        }
+    );
+    </script>
+
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
+            <!-- Sidebar -->
+            <div id="sidebar"></div>
+            <script>
+            fetch('../../views/partials/sidebar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebar').innerHTML = data;
+                }
+            );
+            </script>
+
+            <!-- Main content -->
+            <div class="vx-doc-content">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">
+                        Card
+                    </h1>
+                    <p class="vx-main-subtitle">
+                        Badges trigger actions and interactions. They are essential UI elements designed to guide users through workflows with clear visual hierarchy and states.
+                    </p>
+                </div>
+
+                <!-- Variants -->
+                <section class="vx-section-code vx-section-sm" id="variants">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Example</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-card" style="max-width: 320px;">
+                                    <div class="vx-card-body">
+                                        <h3 class="vx-card-title">Card Title</h3>
+                                        <p class="vx-card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Sed faucibus aliquam orci tincidunt aliquam. Curabitur massa ante, faucibus eget dui.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Image Top -->
+                <section class="vx-section-code vx-section-sm" id="image-top">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Image Top</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-card" style="max-width: 320px;">
+                                    <img src="https://placehold.co/330x200?text=Image+Placehold" alt="card-img-top" class="vx-img-fluid">
+                                    <div class="vx-card-body">
+                                        <h3 class="vx-card-title">Card Title</h3>
+                                        <p class="vx-card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Sed faucibus aliquam orci tincidunt aliquam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Grid -->
+                <section class="vx-section-code vx-section-sm" id="image-top">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Grid</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-grid">
+                                    <div class="vx-col-6">
+                                        <div class="vx-card">
+                                            <img src="https://placehold.co/330x200?text=Image+Placehold" alt="card-img-top" class="vx-img-fluid">
+                                            <div class="vx-card-body">
+                                                <h3 class="vx-card-title">Card Title</h3>
+                                                <p class="vx-card-text">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                    Sed faucibus aliquam orci tincidunt aliquam.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vx-col-6">
+                                        <div class="vx-card">
+                                            <img src="https://placehold.co/330x200?text=Image+Placehold" alt="card-img-top" class="vx-img-fluid">
+                                            <div class="vx-card-body">
+                                                <h3 class="vx-card-title">Card Title</h3>
+                                                <p class="vx-card-text">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                    Sed faucibus aliquam orci tincidunt aliquam.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../assets/js/vertex.js"></script>
+</body>
+</html>

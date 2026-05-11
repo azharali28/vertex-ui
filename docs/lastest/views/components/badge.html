@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../../dist/vertex.css">
+    <link rel="stylesheet" href="../../assets/css/docs.css">
+    <title>Badge | Vertex UI v1.0</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <script>
+    fetch('../../views/partials/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        }
+    );
+    </script>
+
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
+            <!-- Sidebar -->
+            <div id="sidebar"></div>
+            <script>
+            fetch('../../views/partials/sidebar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebar').innerHTML = data;
+                }
+            );
+            </script>
+
+            <!-- Main content -->
+            <div class="vx-doc-content">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">
+                        Badges
+                    </h1>
+                    <p class="vx-main-subtitle">
+                        Badges trigger actions and interactions. They are essential UI elements designed to guide users through workflows with clear visual hierarchy and states.
+                    </p>
+                </div>
+
+                <!-- Variants -->
+                <section class="vx-section-sm" id="variants">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Variants</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-badge vx-badge-primary">Primary</div>
+                                <div class="vx-badge vx-badge-secondary">Secondary</div>
+                                <div class="vx-badge vx-badge-tertiary">Tertiary</div>
+                                <div class="vx-badge vx-badge-success">Success</div>
+                                <div class="vx-badge vx-badge-warning">Warning</div>
+                                <div class="vx-badge vx-badge-danger">Danger</div>
+                                <div class="vx-badge vx-badge-dark">Dark</div>
+                                <div class="vx-badge vx-badge-light">Light</div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Outlines -->
+                <section class="vx-section-sm" id="outlines">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Outlines</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-badge vx-badge-primary-outline">Primary</div>
+                                <div class="vx-badge vx-badge-secondary-outline">Secondary</div>
+                                <div class="vx-badge vx-badge-tertiary-outline">Tertiary</div>
+                                <div class="vx-badge vx-badge-success-outline">Success</div>
+                                <div class="vx-badge vx-badge-warning-outline">Warning</div>
+                                <div class="vx-badge vx-badge-danger-outline">Danger</div>
+                                <div class="vx-badge vx-badge-dark-outline">Dark</div>
+                                <div class="vx-badge vx-badge-light-outline">Light</div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="vx-doc-footer vx-lh-lg">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+    <script src="../../assets/js/vertex.js"></script>
+</body>
+</html>

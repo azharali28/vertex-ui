@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../../dist/vertex.css">
+    <link rel="stylesheet" href="../../assets/css/docs.css">
+    <title>Alerts | Vertex UI v1.0</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <script>
+    fetch('../../views/partials/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        }
+    );
+    </script>
+
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
+            <!-- Sidebar -->
+            <div id="sidebar"></div>
+            <script>
+            fetch('../../views/partials/sidebar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebar').innerHTML = data;
+                }
+            );
+            </script>
+
+            <!-- Main content -->
+            <div class="vx-doc-content">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">
+                        Alerts
+                    </h1>
+                    <p class="vx-main-text">
+                        Provide contextual feedback messages for user actions. Alerts are used to communicate status, warnings, or important information in a clear and concise way.
+                    </p>
+                </div>
+
+                <!-- Variants -->
+                <section class="vx-section-sm" id="variants">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Variants</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <div class="vx-alert vx-alert-primary" role="alert">This is a Primary Alert!</div>
+                                <div class="vx-alert vx-alert-secondary" role="alert">This is a Secondary Alert!</div>
+                                <div class="vx-alert vx-alert-tertiary" role="alert">This is a Tertiary Alert!</div>
+                                <div class="vx-alert vx-alert-success" role="alert">This is a Success Alert!</div>
+                                <div class="vx-alert vx-alert-warning" role="alert">This is a Warning Alert!</div>
+                                <div class="vx-alert vx-alert-danger" role="alert">This is a Danger Alert!</div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Icons -->
+                <section class="vx-section-sm" id="icons">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Icons</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <div class="vx-alert vx-alert-primary vx-flex vx-flex-center vx-gap-sm" role="alert">
+                                    <i class="fa fa-circle-info"></i>
+                                    This is a Primary Alert
+                                </div>
+                                <div class="vx-alert vx-alert-secondary vx-flex vx-flex-center vx-gap-sm" role="alert">
+                                    <i class="fa fa-circle-check"></i>
+                                    This is a Secondary Alert
+                                </div>
+                                <div class="vx-alert vx-alert-tertiary vx-flex vx-flex-center vx-gap-sm" role="alert">
+                                    <i class="fa fa-circle-exclamation"></i>
+                                    This is a Tertiary Alert
+                                </div>
+                                <div class="vx-alert vx-alert-success vx-flex vx-flex-center vx-gap-sm" role="alert">
+                                    <i class="fa fa-circle-check"></i>
+                                    This is a Success Alert
+                                </div>
+                                <div class="vx-alert vx-alert-warning vx-flex vx-flex-center vx-gap-sm" role="alert">
+                                    <i class="fa fa-triangle-exclamation"></i>
+                                    This is a Warning Alert
+                                </div>
+                                <div class="vx-alert vx-alert-danger vx-flex vx-flex-center vx-gap-sm" role="alert">
+                                    <i class="fa fa-triangle-exclamation"></i>
+                                    This is a Danger Alert
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- Dismissable -->
+                <section class="vx-section-sm" id="dismissable">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Dismissable</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <div class="vx-alert vx-alert-primary vx-flex vx-flex-between" role="alert">
+                                    This is a Primary Alert
+                                    <a href="#dismissable" data-dismiss=".vx-alert">
+                                        <i class="fa fa-xmark"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="vx-doc-footer vx-lh-lg">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+    <script src="../../assets/js/vertex.js"></script>
+</body>
+</html>

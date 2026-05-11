@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../docs/css/docs.css">
+    <link rel="stylesheet" href="../../dist/vertex.css">
+    <title>Contact Form | Vertex UI v1.0</title>
+</head>
+<body>
+
+    <section class="vx-section vx-section-contact" id="contact">
+        <div class="vx-container vx-container-lg">
+            <div class="vx-section-header vx-text-center vx-stack-lg">
+                <h1 class="vx-section-title">
+                    Contact Me
+                </h1>
+                <p class="vx-section-text">
+                    Have a project in mind or want to collaborate? Let's talk.
+                </p>
+            </div>
+            <div class="vx-section-content">
+                <form onsubmit="alert('Message sent! (demo)'); return false;">
+                <!-- <form action="" method="post"> -->
+                    <div class="vx-grid">
+                        <div class="vx-field vx-col-12 vx-col-md-6">
+                            <label for="first_name" class="vx-label">First Name</label>
+                            <input type="text" name="first_name" id="first_name" class="vx-input" value="" placeholder="First Name">
+                            <div class="vx-input-error"></div>
+                        </div>
+                        <div class="vx-field vx-col-12 vx-col-md-6">
+                            <label for="last_name" class="vx-label">Last Name</label>
+                            <input type="text" name="last_name" id="last_name" class="vx-input" value="" placeholder="Last Name">
+                            <div class="vx-input-error"></div>
+                        </div>
+                        <div class="vx-field vx-col-12 vx-col-md-6">
+                            <label for="phone" class="vx-label">Phone Number</label>
+                            <input type="tel" name="phone" id="phone" class="vx-input" value="" placeholder="5XXXXXXX">
+                            <div class="vx-input-error"></div>
+                        </div>
+                        <div class="vx-field vx-col-12 vx-col-md-6">
+                            <label for="email" class="vx-label">Email</label>
+                            <input type="text" name="email" id="email" class="vx-input" value="" placeholder="email@example.com">
+                            <div class="vx-input-error"></div>
+                        </div>
+                        <div class="vx-field vx-col-md-12">
+                            <label for="subject" class="vx-label">Subject</label>
+                            <input type="text" name="subject" id="subject" class="vx-input" value="" placeholder="Mail Subject">
+                            <div class="vx-input-error"></div>
+                        </div>
+                        <div class="vx-field vx-col-12 vx-col-sm-12">
+                            <label for="message" class="vx-label">Message</label>
+                            <textarea name="message" id="message" class="vx-input" cols="30" rows="10" placeholder="Message"></textarea>
+                            <div class="vx-input-error"></div>
+                        </div>
+                        <div class="vx-col-12">
+                            <button type="submit" name="submit" id="submit" class="vx-btn vx-btn-primary-outline">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

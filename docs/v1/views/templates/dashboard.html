@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../dist/vertex.css">
+    <link rel="stylesheet" href="../../docs/css/templates.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Dashboard | Vertex UI</title>
+</head>
+<body>
+    <main class="vx-main">
+        <div class="vx-dashboard">
+            <div class="vx-sidebar">
+                <header class="vx-navbar vx-navbar-light vx-navbar-sticky">
+                    <nav class="vx-container vx-container-fluid">
+                        <a href="#" class="vx-navbar-brand">Company Name</a>
+                    </nav>
+                </header>
+
+                <div class="vx-container vx-container-md vx-py-md">
+                    <nav class="vx-nav vx-nav-column">
+                        <p class="vx-nav-title vx-text-bold vx-py-md">Dashboard</p>
+                        <a href="#" class="vx-nav-link">
+                            <i class="fa fa-home"></i>
+                            Dashboard
+                        </a>
+                        <a href="#" class="vx-nav-link">
+                            <i class="fa fa-chart-line"></i>
+                            Activity
+                        </a>
+                        <a href="#" class="vx-nav-link">
+                            <i class="fa fa-puzzle-piece"></i>
+                            Integrations
+                        </a>
+                        <div class="vx-divider"></div>
+                        <a href="#" class="vx-nav-link">
+                            <i class="fa fa-gear"></i>
+                            Settings
+                        </a>
+                        <a href="#" class="vx-nav-link">
+                            <i class="fa fa-arrow-right-from-bracket"></i>
+                            Logout
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <main>
+                <header class="vx-navbar vx-navbar-light vx-navbar-sticky">
+                    <nav class="vx-container vx-container-fluid"></nav>
+                </header>
+                <div class="vx-container vx-container-xl vx-stack-lg">
+                    <div class="vx-stack-md vx-py-lg">
+                        <h4>Model Overview</h4>
+                        <p>
+                            This system uses a <strong>Random Forest Classifier</strong> trained on mental health survey data to predict whether an individual is likely to seek mental health treatment or not.
+                        </p>
+                    </div>
+                    <div class="vx-grid">
+                        <div class="vx-col-3">
+                            <div class="vx-card vx-shadow-md">
+                                <div class="vx-card-body">
+                                    <h3>12,500</h3>
+                                    <p class="vx-pt-md">Total Records</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vx-col-3">
+                            <div class="vx-card vx-shadow-md">
+                                <div class="vx-card-body">
+                                    <h3>73%</h3>
+                                    <p class="vx-pt-md">Model Accuracy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vx-col-3">
+                            <div class="vx-card vx-shadow-md">
+                                <div class="vx-card-body">
+                                    <h3 class="vx-text-success">78% Recall</h3>
+                                    <p class="vx-pt-md">Best Metric</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vx-col-3">
+                            <div class="vx-card vx-shadow-md">
+                                <div class="vx-card-body">
+                                    <h3>38%</h3>
+                                    <p class="vx-pt-md">Need Treatment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vx-grid">
+                        <div class="vx-col-6">
+                            <div class="vx-card vx-shadow-md">
+                                <div class="vx-card-body">
+                                    <h3 class="vx-card-title">Age Distribution</h3>
+                                    <canvas id="ageChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vx-col-6">
+                            <div class="vx-card vx-shadow-md">
+                                <div class="vx-card-body">
+                                    <h3 class="vx-card-title">Predict Treatment</h3>
+                                    <div class="vx-grid">
+                                        <div class="vx-field vx-col-6 vx-mt-md">
+                                            <label for="age">Age</label>
+                                            <input type="number" min="18" id="age" name="age" class="vx-input" placeholder="Age">
+                                        </div>
+                                        <div class="vx-field vx-col-6 vx-mt-md">
+                                            <label for="gender">Gender</label>
+                                            <select name="gender" id="gender" class="vx-input vx-gender">
+                                                <option value="male">Male</option>
+                                                <option value="female">Female</option>
+                                            </select>
+                                        </div>
+                                        <div class="vx-field vx-col-6">
+                                            <label for="stressLevel">Stress Level</label>
+                                            <select name="stressLevel" id="stressLevel" class="vx-input vx-stressLevel">
+                                                <option value="low">Low</option>
+                                                <option value="medium">medium</option>
+                                                <option value="high">High</option>
+                                            </select>
+                                        </div>
+                                        <div class="vx-field vx-col-6">
+                                            <label for="familyHistory">Family History</label>
+                                            <select name="familyHistory" id="familyHistory" class="vx-input vx-familyHistory">
+                                                <option value="yes">Yes</option>
+                                                <option value="no">No</option>
+                                            </select>
+                                        </div>
+                                        <div class="vx-col-6">
+                                            <button type="submit" id="submit" name="submit" class="vx-btn vx-btn-primary vx-mt-md">Predict</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vx-col-6">
+                            <div class="vx-card vx-shadow-md">
+                                <div class="vx-card-body">
+                                    <h3 class="vx-card-title vx-text-bold">Feature Importance</h3>
+                                    <p class="vx-card-text">No data yet!</p>
+                                    <canvas id="featureChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vx-col-6">
+                            <div class="vx-card vx-shadow-md">
+                                <div class="vx-card-body">
+                                    <h3 class="vx-card-title vx-text-bold">Insights</h3>
+                                    <ul class="vx-list vx-mt-md">
+                                        <li>High stress increases treatment probability significantly</li>
+                                        <li>Family history is a strong contributing factor</li>
+                                        <li>Remote workers show slightly lower risk</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </main>
+
+    <script>
+        // Age chart
+        new Chart(document.getElementById('ageChart'), {
+            type: 'bar',
+            data: {
+                labels: ['18-25', '26-35', '36-45', '46+'],
+                datasets: [{
+                    label: 'Patients',
+                    data: [120, 200, 150, 80]
+                }]
+            }
+        });
+    </script>
+
+
+</body>
+</html>

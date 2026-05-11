@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../../dist/vertex.css">
+    <link rel="stylesheet" href="../../assets/css/docs.css">
+    <title>Getting Started | Vertex UI v1.0</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <script>
+    fetch('../partials/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        }
+    );
+    </script>
+
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
+            <!-- Sidebar -->
+            <div id="sidebar"></div>
+            <script>
+            fetch('../partials/sidebar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebar').innerHTML = data;
+                }
+            );
+            </script>
+
+            <!-- Main content -->
+            <div class="vx-doc-content">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">
+                        Getting Started with Vertex UI
+                    </h1>
+                    <p class="vx-main-subtitle">
+                        Vertex UI is a hybrid UI framework designed to help developers build structured, scalable web interfaces using a consistent layout and component system.
+                    </p>
+                </div>
+
+                <!-- Quick Start -->
+                <section class="vx-section-code vx-section-sm" id="variants">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">
+                            Quick Start
+                        </h3>
+                        <p class="vx-section-text">
+                            Get started by including the Vertex UI stylesheet and using its layout and component classes to build your interface.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Why Vertex -->
+                <section class="vx-section-code vx-section-sm" id="variants">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">
+                            Why Vertex?
+                        </h3>
+                        <p class="vx-section-text">
+                            Vertex UI was created to provide better control over layout, spacing, and reusable components, especially for dashboards and modern web applications.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="vx-doc-footer vx-lh-lg">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+    <script src="../../assets/js/vertex.js"></script>
+</body>
+</html>

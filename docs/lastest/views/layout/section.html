@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../../dist/vertex.css">
+    <link rel="stylesheet" href="../../assets/css/docs.css">
+    <title>Section | Vertex UI v1.0</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <script>
+    fetch('../../views/partials/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        }
+    );
+    </script>
+
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
+            <!-- Sidebar -->
+            <div id="sidebar"></div>
+            <script>
+            fetch('../../views/partials/sidebar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebar').innerHTML = data;
+                }
+            );
+            </script>
+
+            <!-- Main content -->
+            <div class="vx-doc-content" id="section">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">
+                        Section
+                    </h1>
+                    <p class="vx-main-text">
+                        Sections are layout primitives used to control content width, alignment, and horizontal spacing. They ensure consistency across sections and help maintain readable layouts on all screen sizes.
+                    </p>
+                </div>
+
+                <!-- Basic -->
+                <section class="vx-section-sm" id="basic">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Basic</h3>
+                        <p class="vx-section-subtitle">
+                            Use <code><strong>.vx-section</strong></code>.
+                        </p>
+                        <ul class="vx-list vx-pl-lg">
+                            <li>Centers content using <code>margin-inline: auto</code></li>
+                            <li>Applied <code>max-width</code></li>
+                            <li>Adds horizontal padding</li>
+                        </ul>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-section vx-demo-box">
+                                    <div class="vx-container">
+                                        <div class="section-header">
+                                            <h1 class="vx-section-title">Section Title</h1>
+                                            <p class="vx-section-text">Text</p>
+                                        </div>
+                                        <div class="vx-section-content">
+                                            Content goes here...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Small -->
+                <section class="vx-section-sm" id="basic">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Small</h3>
+                        <p class="vx-section-subtitle">
+                            Use <code><strong>.vx-section-sm</strong></code>.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-section vx-section-sm vx-demo-box">
+                                    <div class="vx-container">
+                                        <div class="section-header">
+                                            <h1 class="vx-section-title">Section Title</h1>
+                                            <p class="vx-section-text">Text</p>
+                                        </div>
+                                        <div class="vx-section-content">
+                                            Content goes here...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Medium -->
+                <section class="vx-section-sm" id="basic">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Medium</h3>
+                        <p class="vx-section-subtitle">
+                            Use <code><strong>.vx-section-md</strong></code>.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-section vx-section-md vx-demo-box">
+                                    <div class="vx-container">
+                                        <div class="section-header">
+                                            <h1 class="vx-section-title">Section Title</h1>
+                                            <p class="vx-section-text">Text</p>
+                                        </div>
+                                        <div class="vx-section-content">
+                                            Content goes here...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Large -->
+                <section class="vx-section-sm" id="basic">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Large</h3>
+                        <p class="vx-section-subtitle">
+                            Use <code><strong>.vx-section-lg</strong></code>.
+                        </p>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-section vx-section-xl vx-demo-box">
+                                    <div class="vx-container">
+                                        <div class="section-header">
+                                            <h1 class="vx-section-title">Section Title</h1>
+                                            <p class="vx-section-text">Text</p>
+                                        </div>
+                                        <div class="vx-section-content">
+                                            Content goes here...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="vx-doc-footer vx-lh-lg">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+    <script src="../../assets/js/vertex.js"></script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../../dist/vertex.css">
+    <link rel="stylesheet" href="../../assets/css/docs.css">
+    <title>Colors | Vertex UI v1.0</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <script>
+    fetch('../../views/partials/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        }
+    );
+    </script>
+
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
+            <!-- Sidebar -->
+            <div id="sidebar"></div>
+            <script>
+            fetch('../../views/partials/sidebar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebar').innerHTML = data;
+                }
+            );
+            </script>
+
+            <!-- Main content -->
+            <div class="vx-doc-content">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">Color</h1>
+                    <p class="vx-main-text">
+                        Vertex is supported by a color system that themes our style and components. This enables more comprehensive customisation for any project.
+                    </p>
+                </div>
+
+                <!-- Variables -->
+                <section class="vx-section-sm" id="variables">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Variables</h3>
+                        <p class="vx-section-subtitle"></p>
+                    </div>
+                    <div class="vx-section-body">
+                        <table class="vx-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Swatch</th>
+                                    <th scope="col">Variables</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Body (Primary) -->
+                                <tr>
+                                    <td rowspan="4">
+                                        <strong>Body</strong> -
+                                        Default foreground and background color
+                                    </td>
+                                    <td>
+                                        <div class="vx-swatch" style="background-color: var(--vx-color-primary);">
+                                            <code></code>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <code>--vx-color-primary</code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="vx-swatch" style="background-color: var(--vx-color-primary-light);">
+                                            <code></code>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <code>--vx-color-primary-light</code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="vx-swatch" style="background-color: var(--vx-color-primary-hover);">
+                                            <code></code>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <code>--vx-color-primary-hover</code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="vx-swatch" style="background-color: var(--vx-color-primary-active);">
+                                            <code></code>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <code>--vx-color-primary-active</code>
+                                    </td>
+                                </tr>
+                                <!-- Secondary -->
+                                <tr>
+                                    <td rowspan="4">
+                                        <strong>Secondary</strong> -
+                                        Used for lighter text. Use the <code>bg</code> option for dividers and disabled components.
+                                    </td>
+                                    <td>
+                                        <div class="vx-swatch" style="background-color: var(--vx-color-secondary);">
+                                            <code></code>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <code>--vx-color-secondary</code>
+                                    </td>
+                                    <tr>
+                                        <td>
+                                            <div class="vx-swatch" style="background-color: var(--vx-color-secondary-light);">
+                                                <code></code>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <code>--vx-color-secondary-light</code>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="vx-swatch" style="background-color: var(--vx-color-secondary-hover);">
+                                                <code></code>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <code>--vx-color-secondary-hover</code>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="vx-swatch" style="background-color: var(--vx-color-secondary-active);">
+                                                <code></code>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <code>--vx-color-secondary-active</code>
+                                        </td>
+                                    </tr>
+                                </tr>
+                                <!-- Tertiary -->
+                                <tr>
+                                    <td rowspan="4">
+                                        <strong>Tertiary</strong> -
+                                        Used for lighter text. Use the <code>bg</code> option for dividers and disabled components.
+                                    </td>
+                                    <td>
+                                        <div class="vx-swatch" style="background-color: var(--vx-color-tertiary);">
+                                            <code></code>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <code>--vx-color-tertiary</code>
+                                    </td>
+                                    <tr>
+                                        <td>
+                                            <div class="vx-swatch" style="background-color: var(--vx-color-tertiary-light);">
+                                                <code></code>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <code>--vx-color-tertiary-light</code>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="vx-swatch" style="background-color: var(--vx-color-tertiary-hover);">
+                                                <code></code>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <code>--vx-color-tertiary-hover</code>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="vx-swatch" style="background-color: var(--vx-color-tertiary-active);">
+                                                <code></code>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <code>--vx-color-tertiary-active</code>
+                                        </td>
+                                    </tr>
+                                </tr>
+                                <!-- Success -->
+                                <tr>
+                                    <td rowspan="4">
+                                        <strong>Success</strong> -
+                                        Used for lighter text. Use the <code>bg</code> option for dividers and disabled components.
+                                    </td>
+                                    <td>
+                                        <div class="vx-swatch" style="background-color: var(--vx-color-success);">
+                                            <code></code>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <code>--vx-color-success</code>
+                                    </td>
+                                    <tr>
+                                        <td>
+                                            <div class="vx-swatch" style="background-color: var(--vx-color-success-light);">
+                                                <code></code>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <code>--vx-color-success-light</code>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="vx-swatch" style="background-color: var(--vx-color-success-hover);">
+                                                <code></code>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <code>--vx-color-success-hover</code>
+                                        </td>
+                                    </tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="vx-doc-footer vx-lh-lg">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+    <script src="../../assets/js/vertex.js"></script>
+</body>
+</html>

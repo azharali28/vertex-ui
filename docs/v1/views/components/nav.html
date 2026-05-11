@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../../dist/vertex.css">
+    <link rel="stylesheet" href="../../assets/css/docs.css">
+    <title>Nav | Vertex UI v1.0</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <script>
+    fetch('../../views/partials/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        }
+    );
+    </script>
+
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
+            <!-- Sidebar -->
+            <div id="sidebar"></div>
+            <script>
+            fetch('../../views/partials/sidebar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebar').innerHTML = data;
+                }
+            );
+            </script>
+
+            <!-- Main content -->
+            <div class="vx-doc-content">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">
+                        Nav
+                    </h1>
+                    <p class="vx-main-subtitle">
+                        Nav components provide structured navigation within a page or section. They help users move between related content quickly and intuitively.
+                    </p>
+                </div>
+
+                <!-- Example -->
+                <section class="vx-section-code vx-section-sm" id="example">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Example</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview vx-stack-md">
+                                <nav class="vx-nav">
+                                    <a href="#" class="vx-nav-link is-active" aria-current="page">Active</a>
+                                    <a href="#" class="vx-nav-link">Link 1</a>
+                                    <a href="#" class="vx-nav-link">Link 2</a>
+                                </nav>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <pre><code data-copy-code></code></pre>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Vertical -->
+                <section class="vx-section-code vx-section-sm" id="vertical">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Vertical</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-snippet">
+                                <div class="vx-preview vx-stack-md">
+                                    <nav class="vx-nav vx-nav-column">
+                                        <a href="#" class="vx-nav-link is-active" aria-current="page">Active</a>
+                                        <a href="#" class="vx-nav-link">Link 1</a>
+                                        <a href="#" class="vx-nav-link">Link 2</a>
+                                    </nav>
+                                </div>
+                                <div class="vx-code" data-copy>
+                                    <pre><code data-copy-code></code></pre>
+                                    <div class="vx-copy-icon" data-copy-icon>
+                                        <i class="fa-regular fa-copy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="vx-doc-footer vx-lh-lg">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+    <script src="../../assets/js/vertex.js"></script>
+</body>
+</html>

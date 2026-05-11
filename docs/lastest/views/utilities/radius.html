@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../../dist/vertex.css">
+    <link rel="stylesheet" href="../../assets/css/docs.css">
+    <title>Radius | Vertex UI v1.0</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <script>
+    fetch('../../views/partials/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        }
+    );
+    </script>
+
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
+            <!-- Sidebar -->
+            <div id="sidebar"></div>
+            <script>
+            fetch('../../views/partials/sidebar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebar').innerHTML = data;
+                }
+            );
+            </script>
+
+            <!-- Main content -->
+            <div class="vx-doc-content">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">
+                        Radius
+                    </h1>
+                    <p class="vx-main-text">
+                        Control the border radius of elements using rounded utilities.
+                    </p>
+                </div>
+
+                <!-- Radius -->
+                <section class="vx-section-sm" id="sizes">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Sizes</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-sm">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-md">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-lg">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-xl">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-full">
+                                <img src="https://placehold.co/200x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-full">
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <pre><code data-copy-code></code></pre>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Partial Radius -->
+                <section class="vx-section-sm" id="partial">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Partial Radius</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-top-sm">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-top-md">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-top-lg">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-top-xl">
+                                <br>
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-bottom-sm">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-bottom-md">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-bottom-lg">
+                                <img src="https://placehold.co/100x100/9ca3af/e5e7eb" alt="..." class="vx-rounded-bottom-xl">
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <pre><code data-copy-code></code></pre>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="vx-doc-footer vx-lh-lg">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+    <script src="../../assets/js/vertex.js"></script>
+</body>
+</html>

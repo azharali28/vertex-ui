@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7b892d9a02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../../dist/vertex.css">
+    <link rel="stylesheet" href="../../assets/css/docs.css">
+    <title>Form | Vertex UI v1.0</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <script>
+    fetch('../../views/partials/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        }
+    );
+    </script>
+
+    <div class="vx-container vx-container-2xl">
+        <div class="vx-doc-layout">
+            <!-- Sidebar -->
+            <div id="sidebar"></div>
+            <script>
+            fetch('../../views/partials/sidebar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('sidebar').innerHTML = data;
+                }
+            );
+            </script>
+
+            <!-- Main content -->
+            <div class="vx-doc-content">
+                <div class="vx-intro">
+                    <h1 class="vx-main-title">
+                        Form
+                    </h1>
+                    <p class="vx-main-subtitle">
+                        Forms collect user input in a structured way. They include fields, labels, and validation patterns to ensure accurate and efficient data entry.
+                    </p>
+                </div>
+
+                <!-- Base -->
+                <section class="vx-section-code vx-section-sm" id="variants">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Example</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <input type="text" id="exampleInput1" name="exampleInput1" class="vx-input" placeholder="First">
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Input -->
+                <section class="vx-section-code vx-section-sm" id="input">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Input</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-field">
+                                    <label for="exampleInput1" class="vx-label">First</label>
+                                    <input type="text" name="exampleInput1" id="exampleInput1" class="vx-input" placeholder="First">
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Textarea -->
+                <section class="vx-section-code vx-section-sm" id="textarea">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Textarea</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-field">
+                                    <label for="exampleTextarea1" class="vx-label">Textarea</label>
+                                    <textarea name="exampleTextarea1" id="exampleTextarea1" class="vx-input" cols="10" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Helper -->
+                <section class="vx-section-code vx-section-sm" id="helper">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Helper</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-field">
+                                    <input type="text" name="exampleInput3" id="exampleInput3" class="vx-input" aria-describedby="helperText1" placeholder="First Name">
+                                    <div id="helperText1" class="vx-input-helper">
+                                        This is a helper text.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Error -->
+                <section class="vx-section-code vx-section-sm" id="error">
+                    <div class="vx-section-header">
+                        <h3 class="vx-section-title">Error</h3>
+                    </div>
+                    <div class="vx-section-body">
+                        <div class="vx-snippet">
+                            <div class="vx-preview">
+                                <div class="vx-field is-error">
+                                    <input type="text" name="exampleInput1" id="exampleInput1" class="vx-input" aria-describedby="errorText1" aria-invalid="true" placeholder="First Name">
+                                    <div id="errorText1" class="vx-input-error">
+                                        This is a required field.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vx-code" data-copy>
+                                <div class="vx-copy-icon" data-copy-icon>
+                                    <i class="fa-regular fa-copy"></i>
+                                </div>
+                                <pre><code data-copy-code></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="vx-footer">
+        <div class="vx-container-fluid">
+            &copy; All rights reserved. <br>
+            Designed and created using <strong>Vertex UI</strong>, by Azhar Ali
+        </div>
+    </footer>
+
+    <script src="../../assets/js/vertex.js"></script>
+</body>
+</html>
