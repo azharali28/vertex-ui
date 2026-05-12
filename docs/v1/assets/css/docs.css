@@ -68,20 +68,14 @@ a {
     border-bottom-left-radius: var(--vx-radius-md);
     border-bottom-right-radius: var(--vx-radius-md);
     padding: var(--vx-space-lg);
-
     font-size: 15px;
     line-height: var(--vx-line-height-md);
     overflow-x: auto;
-}
-
-.vx-code pre {
-    white-space: wrap;
+    white-space: nowrap;
 }
 
 [data-copy-icon] {
     font-size: 18px;
-    display: flex;
-    justify-content: flex-end;
     transition: color 0.25s ease;
 }
 
