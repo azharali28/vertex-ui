@@ -1,6 +1,6 @@
 .vx-container {
     width: 100%;
-    margin-inline: auto;
+    margin: 0 auto;
     padding: 0 var(--vx-space-lg);
 }
 
@@ -12,5 +12,6 @@
 
 .vx-container-fluid {
     width: 100%;
-    padding-inline: var(--vx-space-lg);
+    margin-block: var(--vx-space-lg);
+    padding-inline: var(--vx-space-3xl);
 }
