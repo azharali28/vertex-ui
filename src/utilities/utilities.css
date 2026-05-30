@@ -1,0 +1,52 @@
+/* Height */
+.vx-h-sm { height: 24px; }
+.vx-h-md { height: 48px; }
+.vx-h-lg { height: 72px; }
+.vx-h-xl { height: 96px; }
+.vx-h-2xl { height: 128px; }
+.vx-h-full { height: 100%; }
+.vx-h-auto { height: auto; }
+.vx-h-screen { height: 100vh; }
+
+/* Order */
+.vx-order-1 { order: 1; }
+.vx-order-2 { order: 2; }
+.vx-order-3 { order: 3; }
+
+/* Nav header */
+.vx-nav-header {
+    display: flex;
+    gap: var(--vx-space-md);
+}
+
+.vx-nav-header
+
+/* Nav links */
+.vx-nav-link {
+    display: flex;
+    align-items: center;
+    gap: var(--vx-space-md);
+    text-decoration: none;
+    color: var(--vx-color-gray-500);
+    border-color: transparent;
+    transition: color 0.2s ease, background-color 0.2s ease, border-bottom 0.2s ease;
+}
+
+.vx-nav-link:hover {
+    color: var(--vx-color-gray-900);
+}
+
+.is-active {
+    color: var(--vx-color-gray-900);
+}
+
+.is-disabled:hover {
+    color: var(--vx-color-gray-500);
+    cursor: default;
+    border: none;
+}
+
+.vx-sidebar-sticky {
+    position: sticky;
+    top: 100px;
+}

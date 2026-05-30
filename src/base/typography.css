@@ -1,0 +1,14 @@
+body {
+    font-family: var(--vx-font-family);
+    font-size: var(--vx-text-base);
+    color: var(--vx-color-gray-900);
+}
+
+h1 { font-size: var(--vx-text-5xl); }
+h2 { font-size: var(--vx-text-4xl); }
+h3 { font-size: var(--vx-text-3xl); }
+h4 { font-size: var(--vx-text-2xl); }
+h5 { font-size: var(--vx-text-xl); }
+h6 { font-size: var(--vx-text-lg); }
+
+p { font-size: var(--vx-text-base); }

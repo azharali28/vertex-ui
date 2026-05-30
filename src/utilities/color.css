@@ -1,0 +1,42 @@
+/* Background colors */
+.vx-bg-primary { background-color: var(--vx-color-primary); }
+.vx-bg-secondary { background-color: var(--vx-color-secondary); }
+.vx-bg-tertiary { background-color: var(--vx-color-tertiary); }
+.vx-bg-success { background-color: var(--vx-color-success); }
+.vx-bg-warning { background-color: var(--vx-color-warning); }
+.vx-bg-danger { background-color: var(--vx-color-danger); }
+.vx-bg-light { background-color: var(--vx-color-light); }
+.vx-bg-dark { background-color: var(--vx-color-dark); }
+
+.vx-bg-gray-50 { background-color: var(--vx-color-gray-50); }
+.vx-bg-gray-100 { background-color: var(--vx-color-gray-100); }
+.vx-bg-gray-200 { background-color: var(--vx-color-gray-200); }
+.vx-bg-gray-300 { background-color: var(--vx-color-gray-300); }
+.vx-bg-gray-400 { background-color: var(--vx-color-gray-400); }
+.vx-bg-gray-500 { background-color: var(--vx-color-gray-500); }
+.vx-bg-gray-600 { background-color: var(--vx-color-gray-600); }
+.vx-bg-gray-700 { background-color: var(--vx-color-gray-700); }
+.vx-bg-gray-800 { background-color: var(--vx-color-gray-800); }
+.vx-bg-gray-900 { background-color: var(--vx-color-gray-900); }
+
+/* Neutral */
+.vx-text-gray-50 { color: var(--vx-color-gray-50); }
+.vx-text-gray-100 { color: var(--vx-color-gray-100); }
+.vx-text-gray-200 { color: var(--vx-color-gray-200); }
+.vx-text-gray-300 { color: var(--vx-color-gray-300); }
+.vx-text-gray-400 { color: var(--vx-color-gray-400); }
+.vx-text-gray-500 { color: var(--vx-color-gray-500); }
+.vx-text-gray-600 { color: var(--vx-color-gray-600); }
+.vx-text-gray-700 { color: var(--vx-color-gray-700); }
+.vx-text-gray-800 { color: var(--vx-color-gray-800); }
+.vx-text-gray-900 { color: var(--vx-color-gray-900); }
+
+/* Text */
+.vx-text-primary { color: var(--vx-color-primary); }
+.vx-text-secondary { color: var(--vx-color-secondary); }
+.vx-text-tertiary { color: var(--vx-color-tertiary); }
+.vx-text-success { color: var(--vx-color-success); }
+.vx-text-warning { color: var(--vx-color-warning); }
+.vx-text-danger { color: var(--vx-color-danger); }
+.vx-text-light { color: var(--vx-color-light); }
+.vx-text-dark { color: var(--vx-color-dark); }

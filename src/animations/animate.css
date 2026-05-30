@@ -1,0 +1,26 @@
+.vx-animate-hover,
+.vx-animate-scale,
+.vx-animate-shadow {
+    transition: transform 0.25s ease;
+}
+
+.vx-animate-lift {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.vx-animate-hover:hover {
+    transform: translateY(-6px);
+}
+
+.vx-animate-scale:hover {
+    transform: scale(1.05);
+}
+
+.vx-animate-lift:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: var(--vx-shadow-md);
+}
+
+.vx-animate-shadow:hover {
+    box-shadow: var(--vx-shadow-md);
+}
