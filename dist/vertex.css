@@ -2,9 +2,9 @@
 @import "../src/base/reset.css";
 @import "../src/base/typography.css";
 
-@import "../src/layout/container.css";
-@import "../src/layout/grid.css";
-@import "../src/layout/section.css";
+@import "../src/layouts/container.css";
+@import "../src/layouts/grid.css";
+@import "../src/layouts/section.css";
 
 @import "../src/utilities/color.css";
 @import "../src/utilities/flex.css";

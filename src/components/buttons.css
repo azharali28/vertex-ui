@@ -41,6 +41,9 @@
 .vx-btn-danger { background-color: var(--vx-color-danger); color: var(--vx-color-light); }
 .vx-btn-danger:hover { background-color: var(--vx-color-danger-hover); color: var(--vx-color-light); }
 
+.vx-btn-dark { background-color: var(--vx-color-dark); color: var(--vx-color-light); }
+.vx-btn-danger:hover { background-color: var(--vx-color-danger-hover); color: var(--vx-color-light); }
+
 /* Button outline */
 .vx-btn-primary-outline { border: 1px solid var(--vx-color-primary); color: var(--vx-color-primary); }
 .vx-btn-primary-outline:hover { background-color: var(--vx-color-primary); color: white; }
@@ -59,6 +62,9 @@
 
 .vx-btn-danger-outline { border: 1px solid var(--vx-color-danger); color: var(--vx-color-danger); }
 .vx-btn-danger-outline:hover { background-color: var(--vx-color-danger); color: white; }
+
+.vx-btn-dark-outline { border: 1px solid var(--vx-color-dark); color: var(--vx-color-dark); }
+.vx-btn-dark-outline:hover { background-color: var(--vx-color-dark); color: var(--vx-color-light); }
 
 .vx-btn-light-outline { border: 1px solid var(--vx-color-light); color: var(--vx-color-dark); }
 .vx-btn-light-outline:hover { background-color: var(--vx-color-light); color: var(--vx-color-dark); }

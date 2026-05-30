@@ -1,5 +1,3 @@
-src_old/
-src/.DS_Store
+.vscode/
 
 .DS_Store
-deploy/
