@@ -7,6 +7,9 @@
 
 .vx-card-body {
     padding: var(--vx-space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--vx-space-md);
 }
 
 .vx-card-title {
@@ -15,8 +18,7 @@
 }
 
 .vx-card-text {
-    color: var(--vx-color-gray-500);
-    margin-block: var(--vx-space-md);
+    color: var(--vx-color-gray-600);
 }
 
 .vx-card-tags {
@@ -64,18 +66,6 @@
 }
 
 /* Full height cards */
-.vx-card-group {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.vx-card-group .vx-card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-/* Full height cards */
 .vx-card-stretch {
     display: flex;
     align-items: stretch;
@@ -92,6 +82,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-top: auto;
 }
 
 .vx-card-stretch .vx-card-body .vx-btn {
